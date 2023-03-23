@@ -16,7 +16,7 @@ window.onload=function(){
         },
         methods:{
             getBanner(){
-                fetch("/json/banner.json")
+                fetch("banner.json")
                 .then(function(resp){
                     return resp.json();
                 })
@@ -53,7 +53,7 @@ window.onload=function(){
                 }, 10);
             },
             getContent(){
-                fetch("/json/cj.json")
+                fetch("cj.json")
                 .then(function(resp){
                     return resp.json();
                 })
