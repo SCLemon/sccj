@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/vue.js"></script>
+    <script src="js/index.js"></script>
+    <link rel="icon" href="material/cj_logo.svg">
+    <title>均均與我 ｜ 愛情小棧</title>
+    <!-- Vanta.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@0.5.24/dist/vanta.birds.min.js"></script>
+    <!-- fontAwesome -->
+    <script src="https://kit.fontawesome.com/026fbb8b51.js" crossorigin="anonymous"></script>
+</head>
+<body id="bg">
+    <div class="box" id="box">
+        <div class="banner">
+            <div class="img-all" id="img-all">
+                <img v-for="b in bannerArr" :src="b.src" alt="">
+            </div>
+            <div class="block-all">
+                <div v-for="b in bannerArr" class="block" name="block" @click="changeImg(b.id)"></div>
+            </div>
+        </div>
+        <div class="main">
+            <div class="content" v-for="obj in content">
+                <div class="img">
+                    <div :id="obj.id" class="img-car">
+                        <img v-for="sr in obj.img" :src="sr">
+                    </div>
+                    <div class="arrow">
+                        <img src="material/down.png" alt="" class="right" @click="contentImg(obj.id,obj.img,1)">
+                        <img src="material/down.png" alt="" class="left" @click="contentImg(obj.id,obj.img,2)">
+                    </div>
+                </div>
+                <div class="text">
+                    <h1 v-text="obj.event"></h1>
+                    <p v-text="obj.content"></p>
+                    <span>時間：<span v-text="obj.date"></span></span>
+                </div>
+            </div>
+        </div>
+        <div class="start">
+            <h1><i class="fa-solid fa-person-digging fa-bounce"></i> 第 <span v-text="startTime"></span> 天</h1>
+        </div>
+    </div>
+</body>
+
+<script>
+    VANTA.BIRDS({
+    el: "#bg",
+    mouseControls: true,
+    touchControls: true,
+    gyroControls: false,
+    minHeight: 1190.00,
+    minWidth: 2200.00,
+    scale: 2.00,
+    scaleMobile: 2.00,
+    backgroundColor: 0x7192f,
+    color1: 0xf22626,
+    birdSize: 0.60,
+    wingSpan: 3.00,
+    speedLimit: 6.00,
+    separation: 50.00,
+    cohesion: 10.00
+    })
+</script>
+</html>
