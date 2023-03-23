@@ -39,11 +39,11 @@ window.onload=function(){
                 
                 this.currentTimer = setInterval(function(){
                     if(vm.position < ps){
-                        vm.position+=10;
+                        vm.position+=14;
                         document.getElementById("img-all").style.left=-vm.position+"px";
                     }
                     else if(vm.position > ps){
-                        vm.position-=10;
+                        vm.position-=14;
                         document.getElementById("img-all").style.left=-vm.position+"px";
                     }
                     else{

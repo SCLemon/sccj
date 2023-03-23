@@ -22,6 +22,8 @@ body{
 .img-all img{
     z-index: 1000;
     width: 100%;
+    height: 100%;
+    object-fit: contain;
 }
 .block-all{
     z-index: 1001;
