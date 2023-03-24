@@ -65,16 +65,16 @@ window.onload=function(){
                 var box =document.getElementById(id);
                 var length= arr.length;
                 var ps = window.getComputedStyle(box).getPropertyValue("left").split("px")[0];
-                console.log(ps)
                 if(method==1 && ps!=-(480*(length-1))){
                    box.style.left=(ps-480)+"px";
                 }
                 if(method==2 && ps<0){
                     box.style.left=(+ps+480)+"px";
                 }
-            }
+            },
         }
     });
     vm.getBanner();
     vm.getContent();
+
 }
