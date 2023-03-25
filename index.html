@@ -31,7 +31,7 @@
             <div class="column">
                 <div class="person">
                     <div class="person-img">
-                        <img src="column/person.jpeg" alt="">
+                        <img src="column/person2.jpeg" alt="">
                     </div>
                     <div class="intro">
                         <p>SCLemon</p>
@@ -221,7 +221,7 @@
                         </div>
                     </div>
                 </div>
-                <!-- 留言板 -->
+                <!-- 留言板  VueJS -->
                 <div class="msg">
                     <h1>訪客留言板</h1>
                     <div class="output">
@@ -235,6 +235,13 @@
             </div>
             <!-- 下方使用 VueJS -->
             <div class="main">
+                <!-- 橫欄 -->
+                <div class="row">
+                    <div class="row-c">動態消息</div>
+                    <div class="row-c">作品列表</div>
+                    <div class="row-c">夢想里程碑</div>
+                    <div class="row-c">旅遊日記</div>
+                </div>
                 <div class="content" v-for="obj in content">
                     <div class="img">
                         <div :id="obj.id" class="img-car">
