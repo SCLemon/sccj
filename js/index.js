@@ -1,3 +1,5 @@
+
+
 window.onload=function(){
     const vm=new Vue({
         el:'#box',
@@ -6,6 +8,9 @@ window.onload=function(){
             position:0,
             currentTimer:0,
             content:[],
+            inputMsg:'',
+            outputMsg:[],
+            ip:'',
         },
         computed:{
             startTime(){
@@ -15,6 +20,16 @@ window.onload=function(){
             }
         },
         methods:{
+            getIP(){
+                fetch('https://api.ipify.org?format=json')
+                .then(resp=>{
+                    return resp.json();
+                })
+                .then(function(data){
+                        vm.ip=data.ip;
+                    }
+                )
+            },
             getBanner(){
                 fetch("banner.json")
                 .then(function(resp){
@@ -72,9 +87,54 @@ window.onload=function(){
                     box.style.left=(+ps+480)+"px";
                 }
             },
+            queryMsg(){
+                var config={
+                    method:"GET",
+                    redirect: 'follow'
+                }
+                fetch("https://script.google.com/macros/s/AKfycbz7OaprvZtIQoBqvGQq8Lc-9FE6QIe3Xk_Ua2e15oUbCFkw9eZovLGQkNySZ5GgBKGE/exec",config)
+                .then(resp=>resp.json())
+                .then(function(data){
+                    vm.outputMsg=[];
+                    for(var i=0 ; i<data['data'].length ;i++){
+                        vm.outputMsg.push("匿名"+(i+1)+" : "+data['data'][i][0]);
+                    }
+                    vm.inputMsg='';
+                })
+            }
+            ,
+            sendMsg(){
+                var formdata = new FormData();
+                formdata.append("msg",this.inputMsg);
+                formdata.append("ip",this.ip);
+                var config={
+                    method:"post",
+                    body:formdata,
+                    redirect: 'follow'
+                }
+                if(this.inputMsg.trim()==''){
+                    alert("資料不可為空");
+                }
+                else{
+                    fetch("https://script.google.com/macros/s/AKfycbz7OaprvZtIQoBqvGQq8Lc-9FE6QIe3Xk_Ua2e15oUbCFkw9eZovLGQkNySZ5GgBKGE/exec",config)
+                    .then(resp=>resp.text())
+                    .then(function(resp){
+                        if(resp == 'success'){
+                            console.log(resp);
+                            alert("發布成功");
+                            vm.queryMsg();
+                        }
+                        else{
+                            console.log(resp);
+                            alert("傳送失敗");
+                        }
+                    });
+                }
+            }
         }
     });
+    vm.getIP()
     vm.getBanner();
     vm.getContent();
-
+    vm.queryMsg();
 }

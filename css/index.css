@@ -53,10 +53,11 @@ body{
     width: 350px;
     padding-top: 30px;
     padding-bottom: 30px;
+    position: relative;
 }
 .main{
     width: 1000px;
-    height: 1000px;
+    height: 1200px;
     overflow: scroll;
     margin: 0 auto;
     padding-bottom: 20px;
@@ -302,4 +303,71 @@ body{
 }
 .call{
     margin-top: 20px;
+}
+.msg{
+    width: 84%;;
+    height: 300px;
+    position: absolute;
+    bottom: 20px;
+    left: 8%;
+    background: rgba(255,255,255,0.2);
+}
+.msg>h1{
+    text-align: center;
+    line-height: 1.9;
+    font-size: 24px;
+    color: rgba(255,255,255,0.8);
+}
+.output{
+    width: 85%;
+    margin: 0 auto;
+    height: 203px;
+    overflow: scroll;
+    color: rgba(255,255,255,0.6);
+    border-top:1px solid rgba(255,255,255,0.1);
+    border-bottom:1px solid rgba(255,255,255,0.1);
+    padding-top: 5px;
+}
+.output>div{
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 8px;
+    text-align: left;
+    font-size: 12px;
+    line-height: 1.5;
+    border-left: 1px solid rgba(255,255,255,0.1);
+    padding-left: 5px;
+}
+.input{
+    width: 78%;
+    margin: 0 auto;
+    margin-top: 5px;
+    height: 37px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.input input{
+    height: 70%;
+    width: 80%;
+    border: 0;
+    border-bottom: 1px solid rgba(255,255,255,0.4);
+    background: transparent;
+    color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.input input:focus{
+    background: rgba(255,255,255,0.4);
+    border-bottom: 1px solid white;
+}
+.input i{
+    width: 10%;
+    color: rgba(255,255,255,0.6);
+    font-size: 18px;
+    display: block;
+}
+.input i:hover{
+    cursor: pointer;
+    color: rgba(255,255,255,1.0);
 }

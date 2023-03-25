@@ -37,6 +37,7 @@
                         <p>SCLemon</p>
                     </div>
                 </div>
+                <!-- 下拉式選單 -->
                 <div class="list">
                     <div class="list-c">
                         <h1>自我介紹</h1>
@@ -220,6 +221,17 @@
                         </div>
                     </div>
                 </div>
+                <!-- 留言板 -->
+                <div class="msg">
+                    <h1>訪客留言板</h1>
+                    <div class="output">
+                        <div v-for="out in outputMsg" v-text="out"></div>
+                    </div>
+                    <div class="input">
+                        <input type="text" required v-model="inputMsg">
+                        <i class="fa-regular fa-paper-plane" @click="sendMsg()"></i>
+                    </div>
+                </div>
             </div>
             <!-- 下方使用 VueJS -->
             <div class="main">
@@ -253,8 +265,8 @@
     mouseControls: true,
     touchControls: true,
     gyroControls: false,
-    minHeight: 590.00,
-    minWidth: 2200.00,
+    minHeight: 890.00,
+    minWidth: 1440.00,
     scale: 2.00,
     scaleMobile: 2.00,
     backgroundColor: 0x7192f,
