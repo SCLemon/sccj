@@ -115,11 +115,13 @@ window.onload=function(){
                 clearInterval(this.timer);
                 var contentBox =document.getElementById("content-all");
                 contentBox.style="opacity:0%";
-                var percent=0;
-                console.log(percent)
+                var percent=0;         
                 this.timer= setInterval(function(){
                     percent+=1.5;
                     contentBox.style="opacity:"+percent+"%";
+                    if(percent>=100){
+                        clearInterval(vm.timer);
+                    }
                 },12);
                 this.main_index=index;
             },
