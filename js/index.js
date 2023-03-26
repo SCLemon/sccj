@@ -8,9 +8,15 @@ window.onload=function(){
             position:0,
             currentTimer:0,
             content:[],
+            post:[],
+            project:[],
+            record:[],
             inputMsg:'',
             outputMsg:[],
             ip:'',
+            main_index:1,
+            sendEnabled:true,
+            timer:0
         },
         computed:{
             startTime(){
@@ -67,6 +73,7 @@ window.onload=function(){
                     }
                 }, 10);
             },
+            // 取得 Main 內容
             getContent(){
                 fetch("cj.json")
                 .then(function(resp){
@@ -76,6 +83,47 @@ window.onload=function(){
                     vm.content=data;
                 });
             },
+            getPost(){
+                fetch("post.json")
+                .then(function(resp){
+                    return resp.json();
+                })
+                .then(function(data){
+                    vm.post=data;
+                });
+            },
+            getProject(){
+                fetch("project.json")
+                .then(function(resp){
+                    return resp.json();
+                })
+                .then(function(data){
+                    vm.project=data;
+                });
+            },
+            getRecord(){
+                fetch("record.json")
+                .then(function(resp){
+                    return resp.json();
+                })
+                .then(function(data){
+                    vm.record=data;
+                });
+            },
+            // 更換內容
+            changeMainIndex(index){
+                clearInterval(this.timer);
+                var contentBox =document.getElementById("content-all");
+                contentBox.style="opacity:0%";
+                var percent=0;
+                console.log(percent)
+                this.timer= setInterval(function(){
+                    percent+=1.5;
+                    contentBox.style="opacity:"+percent+"%";
+                },12);
+                this.main_index=index;
+            },
+            // 相簿換頁
             contentImg(id,arr,method){
                 var box =document.getElementById(id);
                 var length= arr.length;
@@ -87,6 +135,7 @@ window.onload=function(){
                     box.style.left=(+ps+480)+"px";
                 }
             },
+            // 取得留言
             queryMsg(){
                 var config={
                     method:"GET",
@@ -98,12 +147,13 @@ window.onload=function(){
                     vm.outputMsg=[];
                     for(var i=0 ; i<data['data'].length ;i++){
                         vm.outputMsg.push("匿名"+(i+1)+" : "+data['data'][i][0]);
-                    }
-                    vm.inputMsg='';
+                    }  
                 })
             }
             ,
+            // 發布留言
             sendMsg(){
+                this.sendEnabled=false;
                 var formdata = new FormData();
                 formdata.append("msg",this.inputMsg);
                 formdata.append("ip",this.ip);
@@ -114,18 +164,19 @@ window.onload=function(){
                 }
                 if(this.inputMsg.trim()==''){
                     alert("資料不可為空");
+                    this.sendEnabled=true;
                 }
                 else{
+                    vm.inputMsg='';
                     fetch("https://script.google.com/macros/s/AKfycbz7OaprvZtIQoBqvGQq8Lc-9FE6QIe3Xk_Ua2e15oUbCFkw9eZovLGQkNySZ5GgBKGE/exec",config)
                     .then(resp=>resp.text())
                     .then(function(resp){
                         if(resp == 'success'){
-                            console.log(resp);
-                            alert("發布成功");
+                            vm.sendEnabled=true;
                             vm.queryMsg();
                         }
                         else{
-                            console.log(resp);
+                            vm.sendEnabled=true;
                             alert("傳送失敗");
                         }
                     });
@@ -133,8 +184,14 @@ window.onload=function(){
             }
         }
     });
+    // initial
     vm.getIP()
     vm.getBanner();
+    // main
+    vm.getPost();
+    vm.getProject();
+    vm.getRecord();
     vm.getContent();
+    // msg
     vm.queryMsg();
 }
