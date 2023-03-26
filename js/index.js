@@ -1,5 +1,3 @@
-
-
 window.onload=function(){
     const vm=new Vue({
         el:'#box',
@@ -16,7 +14,8 @@ window.onload=function(){
             ip:'',
             main_index:1,
             sendEnabled:true,
-            timer:0
+            timer:0,
+            last:0,
         },
         computed:{
             startTime(){
@@ -146,10 +145,12 @@ window.onload=function(){
                 fetch("https://script.google.com/macros/s/AKfycbz7OaprvZtIQoBqvGQq8Lc-9FE6QIe3Xk_Ua2e15oUbCFkw9eZovLGQkNySZ5GgBKGE/exec",config)
                 .then(resp=>resp.json())
                 .then(function(data){
+                    var i;
                     vm.outputMsg=[];
-                    for(var i=0 ; i<data['data'].length ;i++){
+                    for(i=0 ; i<data['data'].length ;i++){
                         vm.outputMsg.push("匿名"+(i+1)+" : "+data['data'][i][0]);
                     }  
+                    vm.last=i;
                 })
             }
             ,
@@ -169,6 +170,7 @@ window.onload=function(){
                     this.sendEnabled=true;
                 }
                 else{
+                    this.outputMsg.push("匿名"+(this.last+1)+" : "+this.inputMsg);
                     vm.inputMsg='';
                     fetch("https://script.google.com/macros/s/AKfycbz7OaprvZtIQoBqvGQq8Lc-9FE6QIe3Xk_Ua2e15oUbCFkw9eZovLGQkNySZ5GgBKGE/exec",config)
                     .then(resp=>resp.text())
