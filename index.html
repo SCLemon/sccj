@@ -224,6 +224,15 @@
                         </div>
                     </div>
                 </div>
+                <!-- PT 列表 -->
+                <div class="pt">
+                    <h1>Partner</h1>
+                    <div class="pt-ct">
+                        <div class="pt-img" v-for="obj in pt">
+                            <img :src="obj.src" :alt="obj.name">
+                        </div>
+                    </div>
+                </div>
                 <!-- 留言板  VueJS -->
                 <div class="msg">
                     <h1>訪客留言板</h1>
@@ -324,7 +333,7 @@
     mouseControls: true,
     touchControls: true,
     gyroControls: false,
-    minHeight: 915.00,
+    minHeight: 1055.00,
     minWidth: 1440.00,
     scale: 2.00,
     scaleMobile: 2.00,

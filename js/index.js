@@ -16,6 +16,7 @@ window.onload=function(){
             sendEnabled:true,
             timer:0,
             last:0,
+            pt:[]
         },
         computed:{
             startTime(){
@@ -109,6 +110,15 @@ window.onload=function(){
                     vm.record=data;
                 });
             },
+            getPt(){
+                fetch("pt.json")
+                .then(function(resp){
+                    return resp.json();
+                })
+                .then(function(data){
+                    vm.pt=data;
+                });
+            },
             // 更換內容
             changeMainIndex(index){
                 clearInterval(this.timer);
@@ -196,6 +206,7 @@ window.onload=function(){
     vm.getProject();
     vm.getRecord();
     vm.getContent();
+    vm.getPt();
     // msg
     vm.queryMsg();
     window.addEventListener("keydown",(e)=>{
