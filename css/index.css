@@ -5,19 +5,62 @@ body{
 .box{
     width: 1400px;
     margin: 0 auto;
+    position: relative;
 }
 .banner{
-    width: 100%;
-    padding-top: 20px;
+    width: 1400px;
     position: relative;
+    margin: 0 auto;
     height: 770px;
     overflow: hidden;
-    margin-bottom:30px;
+    padding-top: 20px;
+    
+}
+.banner_border{
+    position: absolute;
+    width: 1402px;
+    height: 752px;
+    left: -1px;
+    top:19.5px;
+    z-index: 1002;
+}
+.banner_border:hover{
+    animation: banner;
+    animation-duration: 0.75s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes banner{
+    0%{
+        border: 0;
+        border-top: 2.5px solid white;
+        border-right: 2.5px solid white;
+    }
+    25%{
+        border: 0;
+        border-right: 2.5px solid white;
+        border-bottom: 2.5px solid white;
+    }
+    50%{
+        border: 0;
+        border-bottom: 2.5px solid white;
+        border-left: 2.5px solid white;
+    }
+    75%{
+        border: 0;
+        border-left: 2.5px solid white;
+        border-top: 2.5px solid white;
+    }
+    100%{
+        border: 0;
+        border-top: 2.5px solid white;
+        border-right: 2.5px solid white;
+    }
 }
 .img-all{
     display: flex;
     position: absolute;
-    width: 100%;
+    width: 1400px;
 }
 .img-all img{
     z-index: 1000;
@@ -46,6 +89,7 @@ body{
     cursor: pointer;
 }
 .main-all{
+    margin-top: 20px;
     display: flex;
     justify-content: space-evenly;
 }

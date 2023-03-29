@@ -198,4 +198,18 @@ window.onload=function(){
     vm.getContent();
     // msg
     vm.queryMsg();
+    window.addEventListener("keydown",(e)=>{
+        var ps = document.getElementsByClassName("img-all")[0].style.left.split("px")[0];
+        if(ps=="") ps=0;
+        if(e.keyCode==37){
+            if((-ps/1400)>=1){
+                vm.changeImg(Math.ceil((-ps/1400)))
+            }
+        }
+        if(e.keyCode==39){ 
+            if((-ps/1400)+2 <= vm.bannerArr.length){
+                vm.changeImg(Math.ceil((-ps/1400)+2))
+            } 
+        }
+    },false)
 }
