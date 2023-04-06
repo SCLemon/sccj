@@ -164,6 +164,34 @@ window.onload=function(){
                 })
             }
             ,
+            sendMail(){
+                var mail =prompt("請輸入電子信箱以取得模板！！");
+                if(mail==null){
+                    console.log("null");
+                }
+                else{
+                    var mod =document.getElementById("mod");
+                    mod.innerText="傳送中";
+                    var formData =new FormData();
+                    formData.append("mail",mail);
+                    var config={
+                        method:"post",
+                        body:formData,
+                        redirect:"follow"
+                    }
+                    fetch("https://script.google.com/macros/s/AKfycbzn17W6vKB7Qh27DrjdKoA6teOq00BDH8HySaBPqU5vzcHXvMEmLhO-Ar3nCVyaT9qv/exec",config)
+                    .then(res=>res.text())
+                    .then(function(res){
+                        if(res=="mail success"){
+                            mod.innerText="已發送";
+                        }
+                        else{
+                            mod.innerText="發送失敗";
+                        }
+                    });
+                }
+            }
+            ,
             // 發布留言
             sendMsg(){
                 this.sendEnabled=false;

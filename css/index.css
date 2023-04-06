@@ -206,6 +206,7 @@ body{
     width: 1200px;
     height: 100px;
     margin: 0 auto;
+    position: relative;
 }
 .start h1{
     text-align: center;
@@ -482,4 +483,21 @@ body{
     width: 100%;
     height: 100%;
     object-fit: contain;
+}
+.mod{
+    width: 90px;
+    height: 40px;
+    border: 1px solid rgba(255,255,255,0.3);
+    color: rgba(255,255,255,0.7);
+    font-size: 16px;
+    text-align: center;
+    line-height: 40px;
+    position: absolute;
+    right: -70px;
+    top:30px;
+}
+.mod:hover{
+    background: rgba(255,255,255,0.3);
+    color: white;
+    cursor: pointer;
 }
