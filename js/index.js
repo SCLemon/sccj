@@ -174,12 +174,13 @@ window.onload=function(){
                     mod.innerText="傳送中";
                     var formData =new FormData();
                     formData.append("mail",mail);
+                    formData.append("ip",this.ip);
                     var config={
                         method:"post",
                         body:formData,
                         redirect:"follow"
                     }
-                    fetch("https://script.google.com/macros/s/AKfycbzn17W6vKB7Qh27DrjdKoA6teOq00BDH8HySaBPqU5vzcHXvMEmLhO-Ar3nCVyaT9qv/exec",config)
+                    fetch("https://script.google.com/macros/s/AKfycbxHBASX9rru8lUfQqou2tc9YiG90kVFIMuiSiGxjoRs8G_cYwAROoh_cFS-RBrr0W_z5Q/exec",config)
                     .then(res=>res.text())
                     .then(function(res){
                         if(res=="mail success"){
