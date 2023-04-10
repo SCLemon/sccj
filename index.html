@@ -23,6 +23,9 @@
         </div>
         <div class="banner">
             <div class="img-all" id="img-all">
+                <div class="visit">
+                    <h1 v-text="visitText"></h1>
+                </div>
                 <img v-for="b in bannerArr" :src="b.src" alt="">
             </div>
             <div class="block-all">
@@ -329,23 +332,23 @@
         </div>
     </div>
     </body>
-<script>
-    VANTA.BIRDS({
-    el: "#bg",
-    mouseControls: true,
-    touchControls: true,
-    gyroControls: false,
-    minHeight: 1055.00,
-    minWidth: 1440.00,
-    scale: 2.00,
-    scaleMobile: 2.00,
-    backgroundColor: 0x7192f,
-    color1: 0xf22626,
-    birdSize: 0.60,
-    wingSpan: 3.00,
-    speedLimit: 6.00,
-    separation: 50.00,
-    cohesion: 10.00
+    <script>
+        VANTA.BIRDS({
+        el: "#bg",
+        mouseControls: true,
+        touchControls: true,
+        gyroControls: false,
+        minHeight: 1055.00,
+        minWidth: 1440.00,
+        scale: 2.00,
+        scaleMobile: 2.00,
+        backgroundColor: 0x7192f,
+        color1: 0xf22626,
+        birdSize: 0.60,
+        wingSpan: 3.00,
+        speedLimit: 6.00,
+        separation: 50.00,
+        cohesion: 10.00
     })
-</script>
+    </script>
 </html>

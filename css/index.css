@@ -13,8 +13,22 @@ body{
     margin: 0 auto;
     height: 770px;
     overflow: hidden;
-    padding-top: 20px;
-    
+    padding-top: 20px; 
+}
+.visit{
+    z-index: 1002;
+    width: 500px;
+    height: 300px;
+    top:50px;
+    left:50px;
+    position: absolute;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    line-height: 1.5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .banner_border{
     position: absolute;
