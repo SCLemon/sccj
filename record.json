@@ -3,7 +3,7 @@
     "date":"2023.02.20",
     "event":"通過 Oracle 國際認證（甲級）",
     "content":"接續上方的考試，除了增進自我的實力以及程度，通過以及認證後，我不是選擇就此結束，而是繼續朝進階的方向學習與邁進，自學如何設計網頁並且與資料庫串接等等的全端工程，靠著Youtube免費串流影音學習與親自實作後，使我再一次的成功取得佳績並且獲得證書，這讓我獲得了滿滿的成就感。因為有了這些的肯定，使我不斷地向前邁進，才會有今天這樣的我！！",
-    "img":["record/ee.png","record/ee2.png"],
+    "img":["record/ee.webp","record/ee2.webp"],
     "link":"https://catalog-education.oracle.com/pls/certview/sharebadge?id=1C810492ECBD518A16EA7BA7FBF72CAA926F16825ABE67213ECD55252484D5E7&fbclid=IwAR0JgdogI_-Rg3QTxK49_6p6TIqWSk-N95aCB36fY0Fe7T91c35oRdRDDZs"
 },
 {
@@ -11,7 +11,7 @@
     "date":"2023.01.19",
     "event":"錄取國立清華大學",
     "content":"從高中時期就立志考上清大來完成自己的人生夢想，在追求夢想的過程中，遇到了頻頻的失敗與挫折，不過也因為自己的不懈努力，使得我能夠順利成為清大的學子。當初立志要進物理學系，而我是以工程科學系（工物系）的學生身份在清大中學習，算是與自己的理想相差不遠，願未來的自己能夠像現在一樣努力與不起餒，繼續朝著自己的目標前進～",
-    "img":["record/nthu.png"],
+    "img":["record/nthu.webp"],
     "link":"https://ess.site.nthu.edu.tw/"
 },
 {
@@ -19,7 +19,7 @@
     "date":"2022.09.03",
     "event":"通過 Oracle 國際認證（乙級）",
     "content":"我趁著暑假的閒暇時光，從中午到凌晨三點挑燈夜戰，從零開始自學程式設計以及刷題，把不會的內容紀錄並且解決，願自己能夠一次就通過國際認證考試。在考試與準備的過程，不妨有些緊張與害怕，因為生平第一次參加此類考試，在考唱中可謂是抖抖抖抖抖，所幸最終以87分的佳績順利考取了人生第一張國際認證給予了自己這段期間努力的一個表揚。",
-    "img":["record/se.png","record/se2.png","record/se3.png"],
+    "img":["record/se.webp","record/se2.webp","record/se3.webp"],
     "link":"https://catalog-education.oracle.com/pls/certview/sharebadge?id=9230CD0C820DD47EF3D54217A6A4EDD5609AC36B30F76316D878FD0E91CA71E6&fbclid=IwAR1G7mSV6QEHJtWhHy47dNKFxQoWqLoIQuYfk1Mhfia_UsxL5JFcHaqKkEo"
 },
 {
@@ -27,7 +27,7 @@
     "date":"2022.08.31",
     "event":"獲得第五屆APX物理銀牌",
     "content":"",
-    "img":["record/apx5.png"],
+    "img":["record/apx5.webp"],
     "link":"https://drive.google.com/drive/u/0/folders/1emb6caXip89v9F3n5QT_l686kfXWHNPE"
 },
 {
@@ -35,7 +35,7 @@
     "date":"2022.06.13",
     "event":"獲得交大理學院院長獎表揚",
     "content":"",
-    "img":["record/apx_lead.png"],
+    "img":["record/apx_lead.webp"],
     "link":"https://drive.google.com/drive/u/0/folders/1emb6caXip89v9F3n5QT_l686kfXWHNPE"
 },
 {
@@ -43,6 +43,6 @@
     "date":"2022.02.18",
     "event":"獲得第四屆APX物理銅牌",
     "content":"",
-    "img":["record/apx4.png"],
+    "img":["record/apx4.webp"],
     "link":"https://drive.google.com/drive/u/0/folders/1emb6caXip89v9F3n5QT_l686kfXWHNPE"
 }]

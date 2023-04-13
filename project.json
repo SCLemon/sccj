@@ -3,7 +3,7 @@
     "date":"2022.12.30",
     "event":"[雲端串接] 圖片上傳暨連結轉換",
     "content":"利用Google Drive 作為雲端儲存空間，提供各位前端工程師上傳圖片並取得一專屬資源 src 連結，可直接使用於 imgUrl='src'，將圖片呈現在網頁上。",
-    "img":["project/github.png"],
+    "img":["project/github.webp"],
     "link":"https://github.com/sc1314520/IMG_CLOUD"
 },
 {
@@ -11,7 +11,7 @@
     "date":"2022.12.30",
     "event":"[JS爬蟲] 112學測甄試篩選器",
     "content":"查詢 112 學年度各校系甄試一覽表",
-    "img":["project/github.png"],
+    "img":["project/github.webp"],
     "link":"https://github.com/sc1314520/GSAT-112"
 },
 {
@@ -19,7 +19,7 @@
     "date":"2022.11.10",
     "event":"[GAS串接] 簡易型便當訂餐系統",
     "content":"這是一個台師大媽媽便當訂餐系統，包含了增刪功能與Google sheet 進行串接，協助店家自動化紀錄訂單。",
-    "img":["project/github.png"],
+    "img":["project/github.webp"],
     "link":"https://github.com/sc1314520/lunch.github.io"
 },
 {
@@ -27,6 +27,6 @@
     "date":"2022.07.15",
     "event":"第一版本個人網站",
     "content":"由初學當下所建立的靜態個人網站（初版），使用純JS編寫的小型網頁。",
-    "img":["project/github.png"],
+    "img":["project/github.webp"],
     "link":"https://sc1314520.github.io/personal.github.io/"
 }]
