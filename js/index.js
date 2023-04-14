@@ -1,1 +1,360 @@
-var _0x2a61cc=_0x3f36;(function(_0x1dd95f,_0x1dbc98){var _0x144349=_0x3f36,_0x5690d8=_0x1dd95f();while(!![]){try{var _0x1a538d=-parseInt(_0x144349(0x13b))/0x1+-parseInt(_0x144349(0x141))/0x2+-parseInt(_0x144349(0x13d))/0x3+-parseInt(_0x144349(0x13a))/0x4+parseInt(_0x144349(0x13e))/0x5+-parseInt(_0x144349(0x146))/0x6+-parseInt(_0x144349(0x147))/0x7*(-parseInt(_0x144349(0x145))/0x8);if(_0x1a538d===_0x1dbc98)break;else _0x5690d8['push'](_0x5690d8['shift']());}catch(_0x259cad){_0x5690d8['push'](_0x5690d8['shift']());}}}(_0x3723,0x51ac1),eval(function(_0x4ece0f,_0x483abd,_0xc1f9f2,_0x33d394,_0x48cfde,_0x5924e0){var _0x51742d=_0x3f36;_0x48cfde=function(_0x4e4c2f){var _0x28ac07=_0x3f36;return(_0x4e4c2f<_0x483abd?'':_0x48cfde(parseInt(_0x4e4c2f/_0x483abd)))+((_0x4e4c2f=_0x4e4c2f%_0x483abd)>0x23?String[_0x28ac07(0x13f)](_0x4e4c2f+0x1d):_0x4e4c2f[_0x28ac07(0x140)](0x24));};if(!''['replace'](/^/,String)){while(_0xc1f9f2--)_0x5924e0[_0x48cfde(_0xc1f9f2)]=_0x33d394[_0xc1f9f2]||_0x48cfde(_0xc1f9f2);_0x33d394=[function(_0x371f56){return _0x5924e0[_0x371f56];}],_0x48cfde=function(){var _0x3bd14d=_0x3f36;return _0x3bd14d(0x142);},_0xc1f9f2=0x1;};while(_0xc1f9f2--)if(_0x33d394[_0xc1f9f2])_0x4ece0f=_0x4ece0f[_0x51742d(0x143)](new RegExp('\x5cb'+_0x48cfde(_0xc1f9f2)+'\x5cb','g'),_0x33d394[_0xc1f9f2]);return _0x4ece0f;}('I.1Q=3(){1R\x20t=d\x201S({1T:\x22#1U\x22,W:{X:[],p:0,J:0,Y:[],B:[],Z:[],11:[],C:\x22\x22,K:[],l:\x22\x22,1l:1,D:!0,L:0,13:0,15:[],c:\x22\x22,j:\x22\x22},1V:{1W(){7\x20t=d\x20f(1X,0,9).1m(),e=f.16();q\x2017.18((e-t)/1n/1Y)}},1Z:{1o(){g(\x22w://20.21.22?23=a\x22).6(t=>t.a()).6(3(e){t.l=e.l,t.1p()})},1q(){g(\x2224.a\x22).6(3(t){q\x20t.a()}).6(3(e){t.X=e,h(3(){7\x20t;b.19(\x221a\x22)[0].k=\x221b:1r;\x22},25)})},1c(e){M(8.J);N(7\x20n=b.19(\x221a\x22),i=E*(e-1),o=0;o<n.x;o++)n[o].k=o==e-1?\x221b:1r\x22:\x221b:\x22;8.J=1d(3(){t.p<i?(t.p+=14,b.y(\x221e-O\x22).k.r=-t.p+\x22z\x22):t.p>i?(t.p-=14,b.y(\x221e-O\x22).k.r=-t.p+\x22z\x22):(t.26=!0,M(t.J))},10)},1s(){g(\x2227.a\x22).6(3(t){q\x20t.a()}).6(3(e){t.Y=e})},1t(){g(\x22B.a\x22).6(3(t){q\x20t.a()}).6(3(e){t.B=e})},1u(){g(\x22Z.a\x22).6(3(t){q\x20t.a()}).6(3(e){t.Z=e})},1v(){g(\x2211.a\x22).6(3(t){q\x20t.a()}).6(3(e){t.11=e})},1w(){g(\x2215.a\x22).6(3(t){q\x20t.a()}).6(3(e){t.15=e})},28(e){M(8.L);7\x20n=b.y(\x22Y-O\x22);n.k=\x221x:0%\x22;7\x20i=0;8.L=1d(3(){i+=1.5,n.k=\x221x:\x22+i+\x22%\x22,i>=29&&M(t.L)},12),8.1l=e},2a(t,e,n){7\x20i=b.y(t),o=e.x,s=I.2b(i).2c(\x22r\x22).m(\x22z\x22)[0];1==n&&s!=-1f*(o-1)&&(i.k.r=s-1f+\x22z\x22),2==n&&s<0&&(i.k.r=+s+1f+\x22z\x22)},1g(){7\x20e;g(\x22w://P.F.G/Q/s/1y-1z/R\x22,{S:\x222d\x22,T:\x22U\x22}).6(t=>t.a()).6(3(e){7\x20n;N(t.K=[],n=0;n<e.W.x;n++)t.K.1A(\x22匿名\x22+(n+1)+\x22\x20:\x20\x22+e.W[n]);t.13=n})},2e(){7\x20t=2f(\x22請輸入電子信箱以取得模板！！\x22);V(2g==t);1B{7\x20e=b.y(\x222h\x22);e.1C=\x22傳送中\x22;7\x20n=d\x201h,i;n.u(\x221D\x22,t),n.u(\x22l\x22,8.l),g(\x22w://P.F.G/Q/s/2i-2j/R\x22,{S:\x22B\x22,1i:n,T:\x22U\x22}).6(t=>t.1j()).6(3(t){e.1C=\x221D\x201E\x22==t?\x22已發送\x22:\x22發送失敗\x22})}},1p(){7\x20e=d\x201h,n;e.u(\x22l\x22,t.l),e.u(\x22j\x22,t.j),g(\x22w://P.F.G/Q/s/2k/R\x22,{S:\x222l\x22,1i:e,T:\x22U\x22}).6(t=>t.1j()).6(3(t){V(\x221a\x22===t){b.y(\x222m\x22).2n=\x22<1F\x20k=\x272o:2p;\x202q-2r:2s;\x201G-2t:1H;\x201G-r:1H;\x27>您因觸犯網路條約，已被系統自動屏蔽！！</1F>\x22;7\x20e=5;1d(()=>{0==--e&&(I.2u.2v=\x22w://2w.F.G\x22)},1n)}})},2x(){8.D=!1;7\x20e=d\x201h;e.u(\x222y\x22,8.C),e.u(\x22l\x22,8.l),e.u(\x22j\x22,8.j);7\x20n={S:\x22B\x22,1i:e,T:\x22U\x22};\x22\x22==8.C.1I()?(1J(\x22資料不可為空\x22),8.D=!0):(8.K.1A(\x22匿名\x22+(8.13+1)+\x22\x20:\x20\x22+8.C),t.C=\x22\x22,g(\x22w://P.F.G/Q/s/1y-1z/R\x22,n).6(t=>t.1j()).6(3(e){\x221E\x22==e?(t.D=!0,t.1g()):(t.D=!0,1J(\x22傳送失敗\x22))}))},H(){N(7\x20e=b.A.m(\x22;\x22),n,i=0;i<e.x;i++)V(e[i].1k(\x22H=\x22)){n=e[i].m(\x22=\x22)[1];2z}b.A.1k(\x22H=\x22)?(8.c=\x22很榮幸能夠再度相見！！\x22,h(3(){t.c=\x22上次造訪時間為：\x5cn\x22+n,h(3(){t.c=\x22我是可愛的小檸檬🍋🍋\x22,h(3(){t.c=\x22祝您有個愉快的體驗~~\x22,h(3(){t.c=\x22🤩🤩\x22,h(3(){t.c=\x22\x22},1K)},1K)},v)},2A)},v)):(8.c=\x22初次見面您好！！\x22,h(3(){8.c=\x22歡迎蒞臨本網頁😚😚\x22,h(3(){t.c=\x22我是可愛的小檸檬🍋🍋\x22,h(3(){t.c=\x22祝您有個愉快的體驗~~\x22,h(3(){t.c=\x22🤩🤩\x22,h(3(){t.c=\x22\x22},v)},v)},v)},v)},v));7\x20o=(d\x20f).2B()+\x22/\x22+(+(d\x20f).2C()+1)+\x22/\x22+(d\x20f).2D()+\x22\x20\x22+(d\x20f).2E().m(\x22\x20\x22)[4],s=d\x20f(f.16()+1L).1M();b.A=\x22H=\x22+o+\x22;1N=\x22+s+\x22;\x22},1O(){V(b.A.1k(\x22j\x22))N(7\x20t=b.A.m(\x22;\x22),e=0;e<t.x;e++)\x22j\x22==t[e].m(\x22=\x22)[0].1I()&&(8.j=t[e].m(\x22=\x22)[1]);1B{7\x20n=(d\x20f).1m(),i=d\x20f(f.16()+1L).1M();b.A=\x22j=\x22+n+\x22;1N=\x22+i+\x22;\x22,8.j=n}}}});t.1o(),t.1q(),t.H(),t.1O(),t.1t(),t.1u(),t.1v(),t.1s(),t.1w(),t.1g(),I.2F(\x222G\x22,e=>{7\x20n=b.19(\x221e-O\x22)[0].k.r.m(\x22z\x22)[0];\x22\x22==n&&(n=0),2H==e.1P&&-n/E>=1&&t.1c(17.18(-n/E)),2I==e.1P&&-n/E+2<=t.X.x&&t.1c(17.18(-n/E+2))},!1)};',0x3e,0xa9,_0x2a61cc(0x13c)[_0x2a61cc(0x144)]('|'),0x0,{})));function _0x3f36(_0x45c0d1,_0x597ec3){var _0x37230d=_0x3723();return _0x3f36=function(_0x3f36b4,_0xf05477){_0x3f36b4=_0x3f36b4-0x13a;var _0x141a66=_0x37230d[_0x3f36b4];return _0x141a66;},_0x3f36(_0x45c0d1,_0x597ec3);}function _0x3723(){var _0x3361b8=['1026032JHjyTq','99717LfueUC','|||function|||then|var|this||json|document|visitText|new||Date|fetch|setTimeout||device|style|ip|split|||position|return|left|||append|3100|https|length|getElementById|px|cookie|post|inputMsg|sendEnabled|1400|google|com|lastVisit|window|currentTimer|outputMsg|timer|clearInterval|for|all|script|macros|exec|method|redirect|follow|if|data|bannerArr|content|project||record||last||pt|now|Math|ceil|getElementsByClassName|block|background|changeImg|setInterval|img|480|queryMsg|FormData|body|text|includes|main_index|getTime|1e3|getIP|testIP|getBanner|white|getContent|getPost|getProject|getRecord|getPt|opacity|AKfycbz7OaprvZtIQoBqvGQq8Lc|9FE6QIe3Xk_Ua2e15oUbCFkw9eZovLGQkNySZ5GgBKGE|push|else|innerText|mail|success|h1|padding|20px|trim|alert|2800|63072e6|toUTCString|expires|getDevice|keyCode|onload|const|Vue|el|box|computed|startTime|2023|86400|methods|api|ipify|org|format|banner|80|timerflag|cj|changeMainIndex|100|contentImg|getComputedStyle|getPropertyValue|GET|sendMail|prompt|null|mod|AKfycbxHBASX9rru8lUfQqou2tc9YiG90kVFIMuiSiGxjoRs8G_cYwAROoh_cFS|RBrr0W_z5Q|AKfycbyJNVEIpFPzw5v666DBWz4sUOxUtXLM_QSECY7VmC9dhYy_tM8OtYQArEfbSKjPz2uj|POST|bg|innerHTML|color|red|font|size|60px|top|location|href|www|sendMsg|msg|break|3800|getFullYear|getMonth|getDate|toString|addEventListener|keydown|37|39','453732zmrPUg','38655eVrLAw','fromCharCode','toString','1023020BTiCNk','\x5cw+','replace','split','40pjUHYU','1750848boqbVn','2292619WXaouv'];_0x3723=function(){return _0x3361b8;};return _0x3723();}
+window.onload=function(){
+    const vm=new Vue({
+        el:'#box',
+        data:{
+            bannerArr:[],
+            position:0,
+            currentTimer:0,
+            content:[],
+            post:[],
+            project:[],
+            record:[],
+            inputMsg:'',
+            outputMsg:[],
+            ip:'',
+            main_index:1,
+            sendEnabled:true,
+            timer:0,
+            last:0,
+            pt:[],
+            visitText:'',
+            device:''
+        },
+        computed:{
+            startTime(){
+                var start = new Date(2023,0,9).getTime();
+                var end =Date.now();
+                return Math.ceil((end-start)/1000/86400);
+            },
+        },
+        methods:{
+            getIP(){
+                fetch('https://api.ipify.org?format=json')
+                .then(resp=>{
+                    return resp.json();
+                })
+                .then(function(data){
+                        vm.ip=data.ip;
+                        vm.testIP();
+                    }
+                )
+            },
+            getBanner(){
+                fetch("banner.json")
+                .then(function(resp){
+                    return resp.json();
+                })
+                .then(function(data){
+                    vm.bannerArr=data;
+                    setTimeout(function(){
+                        var block=document.getElementsByClassName("block")[0];
+                        block.style="background:white;";
+                    },80);
+                });
+            },
+            changeImg(id){
+                clearInterval(this.currentTimer);
+                var block=document.getElementsByClassName("block");
+                var ps=1400*(id-1);
+                for(var i=0 ;i<block.length;i++){
+                    if(i==(id-1)){
+                        block[i].style="background:white";
+                    }
+                    else{
+                        block[i].style="background:";
+                    }
+                }
+                
+                this.currentTimer = setInterval(function(){
+                    if(vm.position < ps){
+                        vm.position+=14;
+                        document.getElementById("img-all").style.left=-vm.position+"px";
+                    }
+                    else if(vm.position > ps){
+                        vm.position-=14;
+                        document.getElementById("img-all").style.left=-vm.position+"px";
+                    }
+                    else{
+                        vm.timerflag=true;
+                        clearInterval(vm.currentTimer);
+                    }
+                }, 10);
+            },
+            // 取得 Main 內容
+            getContent(){
+                fetch("cj.json")
+                .then(function(resp){
+                    return resp.json();
+                })
+                .then(function(data){
+                    vm.content=data;
+                });
+            },
+            getPost(){
+                fetch("post.json")
+                .then(function(resp){
+                    return resp.json();
+                })
+                .then(function(data){
+                    vm.post=data;
+                });
+            },
+            getProject(){
+                fetch("project.json")
+                .then(function(resp){
+                    return resp.json();
+                })
+                .then(function(data){
+                    vm.project=data;
+                });
+            },
+            getRecord(){
+                fetch("record.json")
+                .then(function(resp){
+                    return resp.json();
+                })
+                .then(function(data){
+                    vm.record=data;
+                });
+            },
+            getPt(){
+                fetch("pt.json")
+                .then(function(resp){
+                    return resp.json();
+                })
+                .then(function(data){
+                    vm.pt=data;
+                });
+            },
+            // 更換內容
+            changeMainIndex(index){
+                clearInterval(this.timer);
+                var contentBox =document.getElementById("content-all");
+                contentBox.style="opacity:0%";
+                var percent=0;         
+                this.timer= setInterval(function(){
+                    percent+=1.5;
+                    contentBox.style="opacity:"+percent+"%";
+                    if(percent>=100){
+                        clearInterval(vm.timer);
+                    }
+                },12);
+                this.main_index=index;
+            },
+            // 相簿換頁
+            contentImg(id,arr,method){
+                var box =document.getElementById(id);
+                var length= arr.length;
+                var ps = window.getComputedStyle(box).getPropertyValue("left").split("px")[0];
+                if(method==1 && ps!=-(480*(length-1))){
+                   box.style.left=(ps-480)+"px";
+                }
+                if(method==2 && ps<0){
+                    box.style.left=(+ps+480)+"px";
+                }
+            },
+            // 取得留言
+            queryMsg(){
+                var config={
+                    method:"GET",
+                    redirect: 'follow'
+                }
+                fetch("https://script.google.com/macros/s/AKfycbz7OaprvZtIQoBqvGQq8Lc-9FE6QIe3Xk_Ua2e15oUbCFkw9eZovLGQkNySZ5GgBKGE/exec",config)
+                .then(resp=>resp.json())
+                .then(function(data){
+                    var i;
+                    vm.outputMsg=[];
+                    for(i=0 ; i<data['data'].length ;i++){
+                        vm.outputMsg.push("匿名"+(i+1)+" : "+data['data'][i]);
+                    }  
+                    vm.last=i;
+                })
+            }
+            ,
+            sendMail(){
+                var mail =prompt("請輸入電子信箱以取得模板！！");
+                if(mail==null){
+                }
+                else{
+                    var mod =document.getElementById("mod");
+                    mod.innerText="傳送中";
+                    var formData =new FormData();
+                    formData.append("mail",mail);
+                    formData.append("ip",this.ip);
+                    var config={
+                        method:"post",
+                        body:formData,
+                        redirect:"follow"
+                    }
+                    fetch("https://script.google.com/macros/s/AKfycbxHBASX9rru8lUfQqou2tc9YiG90kVFIMuiSiGxjoRs8G_cYwAROoh_cFS-RBrr0W_z5Q/exec",config)
+                    .then(res=>res.text())
+                    .then(function(res){
+                        if(res=="mail success"){
+                            mod.innerText="已發送";
+                        }
+                        else{
+                            mod.innerText="發送失敗";
+                        }
+                    });
+                }
+            }
+            ,
+            // 檢測惡意IP
+            testIP(){
+                var formData = new FormData();
+                formData.append("ip",vm.ip);
+                formData.append("device",vm.device);
+                var config={
+                    method:"POST",
+                    body:formData,
+                    redirect: 'follow'
+                }
+                fetch("https://script.google.com/macros/s/AKfycbyJNVEIpFPzw5v666DBWz4sUOxUtXLM_QSECY7VmC9dhYy_tM8OtYQArEfbSKjPz2uj/exec",config)
+                .then(resp=>resp.text())
+                .then(function(data){
+                    if(data==="block"){
+                            document.getElementById("bg").innerHTML="<h1 style='color:red; font-size:60px; padding-top:20px; padding-left:20px;'>您因觸犯網路條約，已被系統自動屏蔽！！</h1>";
+                            var time = 5;
+                            setInterval(() => {
+                            time--;
+                            if(time==0){
+                                window.location.href="https://www.google.com";
+                            }
+                            }, 1000);
+                            
+                        }
+                    }
+                )
+            },
+            // 發布留言
+            sendMsg(){
+                this.sendEnabled=false;
+                var formdata = new FormData();
+                formdata.append("msg",this.inputMsg);
+                formdata.append("ip",this.ip);
+                formdata.append("device",this.device);
+                var config={
+                    method:"post",
+                    body:formdata,
+                    redirect: 'follow'
+                }
+                if(this.inputMsg.trim()==''){
+                    alert("資料不可為空");
+                    this.sendEnabled=true;
+                }
+                else{
+                    this.outputMsg.push("匿名"+(this.last+1)+" : "+this.inputMsg);
+                    vm.inputMsg='';
+                    fetch("https://script.google.com/macros/s/AKfycbz7OaprvZtIQoBqvGQq8Lc-9FE6QIe3Xk_Ua2e15oUbCFkw9eZovLGQkNySZ5GgBKGE/exec",config)
+                    .then(resp=>resp.text())
+                    .then(function(resp){
+                        if(resp == 'success'){
+                            vm.sendEnabled=true;
+                            vm.queryMsg();
+                        }
+                        else{
+                            vm.sendEnabled=true;
+                            alert("傳送失敗");
+                        }
+                    });
+                }
+            },
+            // 上次造訪時間
+            lastVisit(){  
+                var cookieArr =document.cookie.split(";");
+                var last;
+                for(var i=0; i<cookieArr.length ;i++){
+                    if(cookieArr[i].includes("lastVisit=")){
+                        last = cookieArr[i].split("=")[1];
+                        break;
+                    }
+                }
+                if(document.cookie.includes("lastVisit=")){
+                    this.visitText="很榮幸能夠再度相見！！";
+                    setTimeout(function(){
+                        vm.visitText="上次造訪時間為：\n"+last;
+                        setTimeout(function(){
+                            vm.visitText="我是可愛的小檸檬🍋🍋"
+                            setTimeout(function(){
+                                vm.visitText="祝您有個愉快的體驗~~"
+                                setTimeout(function(){
+                                    vm.visitText="🤩🤩"
+                                    setTimeout(function(){
+                                        vm.visitText=""
+                                    },2800)
+                                },2800)
+                            },3100)
+                        },3800)
+                    },3100)
+                }
+                else{
+                    this.visitText="初次見面您好！！"
+                    setTimeout(function(){
+                        this.visitText="歡迎蒞臨本網頁😚😚"
+                        setTimeout(function(){
+                            vm.visitText="我是可愛的小檸檬🍋🍋"
+                            setTimeout(function(){
+                                vm.visitText="祝您有個愉快的體驗~~"
+                                setTimeout(function(){
+                                    vm.visitText="🤩🤩"
+                                    setTimeout(function(){
+                                        vm.visitText=""
+                                    },3100)
+                                },3100)
+                            },3100)
+                        },3100)
+                    },3100)
+                }
+                var currentTime = new Date().getFullYear()+"/"+(+new Date().getMonth()+1)+"/"+new Date().getDate()+" "+(new Date().toString().split(" ")[4]);
+                var expires = new Date(Date.now()+86400*365*2*1000).toUTCString();
+                document.cookie = "lastVisit="+currentTime+";expires="+expires+";";
+            },
+            // 取得裝置識別碼
+            getDevice(){
+                if(!document.cookie.includes("device")){
+                    var code=new Date().getTime();
+                    var expires = new Date(Date.now()+86400*365*2*1000).toUTCString();
+                    document.cookie="device="+code+";expires="+expires+";"
+                    this.device=code;
+                }
+                else{
+                    var cookies =document.cookie.split(";");
+                    for(var i=0 ;i<cookies.length ;i++){
+                        if(cookies[i].split("=")[0].trim()=="device"){
+                            this.device=cookies[i].split("=")[1];
+                        }
+                    }
+                }
+            },
+        }
+    });
+
+    // initial
+    vm.getIP();
+    vm.getBanner();
+    vm.lastVisit();
+    vm.getDevice();
+    // main
+    vm.getPost();
+    vm.getProject();
+    vm.getRecord();
+    vm.getContent();
+    vm.getPt();
+    // msg
+    vm.queryMsg();
+
+    window.addEventListener("keydown",(e)=>{
+        var ps = document.getElementsByClassName("img-all")[0].style.left.split("px")[0];
+        if(ps=="") ps=0;
+        if(e.keyCode==37){
+            if((-ps/1400)>=1){
+                vm.changeImg(Math.ceil((-ps/1400)))
+            }
+        }
+        if(e.keyCode==39){ 
+            if((-ps/1400)+2 <= vm.bannerArr.length){
+                vm.changeImg(Math.ceil((-ps/1400)+2))
+            } 
+        }
+    },false)
+}
