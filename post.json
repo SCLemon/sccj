@@ -1,4 +1,13 @@
 [{
+    "id":"3",
+    "date":"2023.04.15",
+    "event":"NTHU I2P-2023 IPHTCOJ",
+    "content":"大多數的解法來自於個人，部分難題則有些參考網路上所分享的解法進行重構。歡迎各位取用，本解法分享包屬於非營利使用，切勿取用作為營利工具。",
+    "img":["post/github.webp"],
+    "link":"https://github.com/sc1314520/NTHU_I2P/tree/main/OJ"
+}
+,
+{
     "id":"2",
     "date":"2023.03.27",
     "event":"正式終止第一版本網站維護",
