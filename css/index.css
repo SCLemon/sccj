@@ -515,3 +515,9 @@ body{
     color: white;
     cursor: pointer;
 }
+.hideOnce{
+    display: none;
+}
+.bg{
+    background: #07192F;
+}
