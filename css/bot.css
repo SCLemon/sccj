@@ -4,15 +4,16 @@
     bottom: 0;
     right: 160px;
     overflow: hidden;
+    display: none;
 }
 .botTitle{
     width: 100%;
-    background: gainsboro;
+    background: #052040;
     height: 45px;
     margin: 0 auto;
     line-height: 45px;
     text-align: center;
-    color: white;
+    color: rgba(255,255,255,0.7);
     font-size: 20px;
 }
 .botTitle:hover{
@@ -36,7 +37,7 @@
     width: 100%;
     height: 45px;
     border-top: 1px solid rgba(255, 255, 255, 0.4);
-    background: gainsboro;
+    background: #052040;
 }
 .botui-container{
     width: 300px;
