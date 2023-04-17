@@ -181,13 +181,13 @@ body{
 .left:hover,.right:hover{
     cursor: pointer;
 }
-.text{
+.ctext{
     width: 450px;
     height: 350px;
     position: relative;
     color: rgba(255,255,255,0.85);
 }
-.text a{
+.ctext a{
     text-decoration: none;
     text-align: center;
     font-size: 32px;
@@ -195,11 +195,11 @@ body{
     color: rgba(255,255,255,0.95);
     display: block;
 }
-.text a:hover{
+.ctext a:hover{
    cursor: pointer;
    text-decoration: underline;
 }
-.text p{
+.ctext p{
     width: 100%;
     height: 73%;
     text-align: justify;
@@ -210,7 +210,7 @@ body{
     margin-top: 10px;
     overflow: scroll;
 }
-.text>span{
+.ctext>span{
     position: absolute;
     bottom: -10px;
     right: 22px;
