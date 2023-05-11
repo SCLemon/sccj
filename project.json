@@ -1,4 +1,12 @@
 [{
+    "id":"5",
+    "date":"2023.05.11",
+    "event":"UBike 即時資料自動查詢",
+    "content":"利用 CheerIO 以及 AppScript 進行即時資料汲取以及紀錄，在特定時間自動寄件給使用者，提早獲取資料，以避免無法租借之困擾。",
+    "img":["project/github.webp"],
+    "link":"https://github.com/SCLemon/Ubike"
+},
+{
     "id":"4",
     "date":"2022.12.30",
     "event":"[雲端串接] 圖片上傳暨連結轉換",
