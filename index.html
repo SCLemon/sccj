@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/label.css">
     <link rel="stylesheet" href="css/index.css">
     <!-- flower loading -->
     <link rel="stylesheet" href="css/loader.css">
@@ -309,7 +310,7 @@
                 <!-- 下方使用 VueJS -->
                 <div class="main" id="main">
                     <!-- 橫欄 -->
-                    <div class="row">
+                    <div class="row" id="row">
                         <div class="row-c" @click="changeMainIndex(1)">動態消息</div>
                         <div class="row-c" @click="changeMainIndex(2)">作品列表</div>
                         <div class="row-c" @click="changeMainIndex(3)">夢想里程碑</div>
@@ -385,7 +386,54 @@
             </div>
             <div class="start">
                 <h1><i class="fa-solid fa-heart fa-beat"></i> 第 <span v-text="startTime"></span> 天</h1>
-                <!--<div @click="sendMail()" id="mod" class="mod">取得模板</div>-->
+                <label>
+                    <input type="checkbox" class="slider">
+                    <div class="switch" id="switch" @click="changeBg()">
+                        <div class="suns"></div>
+                        <div class="moons">
+                            <div class="star star-1"></div>
+                            <div class="star star-2"></div>
+                            <div class="star star-3"></div>
+                            <div class="star star-4"></div>
+                            <div class="star star-5"></div>
+                            <div class="first-moon"></div>
+                        </div>
+                        <div class="sand"></div>
+                        <div class="bb8">
+                            <div class="antennas">
+                                <div class="antenna short"></div>
+                                <div class="antenna long"></div>
+                            </div>
+                            <div class="head">
+                                <div class="stripe one"></div>
+                                <div class="stripe two"></div>
+                                <div class="eyes">
+                                    <div class="eye one"></div>
+                                    <div class="eye two"></div>
+                                </div>
+                                <div class="stripe detail">
+                                    <div class="detail zero"></div>
+                                    <div class="detail zero"></div>
+                                    <div class="detail one"></div>
+                                    <div class="detail two"></div>
+                                    <div class="detail three"></div>
+                                    <div class="detail four"></div>
+                                    <div class="detail five"></div>
+                                    <div class="detail five"></div>
+                                </div>
+                                <div class="stripe three"></div>
+                            </div>
+                            <div class="ball">
+                                <div class="lines one"></div>
+                                <div class="lines two"></div>
+                                <div class="ring one"></div>
+                                <div class="ring two"></div>
+                                <div class="ring three"></div>
+                            </div>
+                            <div class="shadow"></div>
+                        </div>
+                    </div>
+                </label>
             </div>
             <audio loop hidden src="audio/background.mp3" id="audio"></audio>
         </div>
