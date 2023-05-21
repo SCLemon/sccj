@@ -1,1 +1,418 @@
-function _0x4635(_0x5156c3,_0x8b56c3){var _0x3f11db=_0x3f11();return _0x4635=function(_0x463501,_0x3a53da){_0x463501=_0x463501-0x77;var _0x27e2d1=_0x3f11db[_0x463501];return _0x27e2d1;},_0x4635(_0x5156c3,_0x8b56c3);}var _0x5ca294=_0x4635;(function(_0x436ac7,_0x2b873b){var _0x50ce6b=_0x4635,_0x173e6c=_0x436ac7();while(!![]){try{var _0x4938ea=parseInt(_0x50ce6b(0x7c))/0x1*(-parseInt(_0x50ce6b(0x7a))/0x2)+parseInt(_0x50ce6b(0x7f))/0x3+-parseInt(_0x50ce6b(0x7e))/0x4*(-parseInt(_0x50ce6b(0x80))/0x5)+parseInt(_0x50ce6b(0x81))/0x6+-parseInt(_0x50ce6b(0x7d))/0x7+-parseInt(_0x50ce6b(0x79))/0x8+parseInt(_0x50ce6b(0x7b))/0x9;if(_0x4938ea===_0x2b873b)break;else _0x173e6c['push'](_0x173e6c['shift']());}catch(_0x316be0){_0x173e6c['push'](_0x173e6c['shift']());}}}(_0x3f11,0x882a0),eval(function(_0x49e15c,_0x28fb9f,_0x79e71f,_0x2a023a,_0x2e1838,_0x292393){var _0x44dbea=_0x4635;_0x2e1838=function(_0x3cfa34){return(_0x3cfa34<_0x28fb9f?'':_0x2e1838(parseInt(_0x3cfa34/_0x28fb9f)))+((_0x3cfa34=_0x3cfa34%_0x28fb9f)>0x23?String['fromCharCode'](_0x3cfa34+0x1d):_0x3cfa34['toString'](0x24));};if(!''[_0x44dbea(0x77)](/^/,String)){while(_0x79e71f--)_0x292393[_0x2e1838(_0x79e71f)]=_0x2a023a[_0x79e71f]||_0x2e1838(_0x79e71f);_0x2a023a=[function(_0x49d8e1){return _0x292393[_0x49d8e1];}],_0x2e1838=function(){var _0x20ad70=_0x44dbea;return _0x20ad70(0x82);},_0x79e71f=0x1;};while(_0x79e71f--)if(_0x2a023a[_0x79e71f])_0x49e15c=_0x49e15c[_0x44dbea(0x77)](new RegExp('\x5cb'+_0x2e1838(_0x79e71f)+'\x5cb','g'),_0x2a023a[_0x79e71f]);return _0x49e15c;}(_0x5ca294(0x83),0x3e,0xde,_0x5ca294(0x78)['split']('|'),0x0,{})));function _0x3f11(){var _0x355d82=['165uJtpRG','292410qayizp','\x5cw+','r.2g=8(){R\x20e=h\x202h({1z:\x22#2i\x22,1e:{1f:[],v:0,S:0,1g:[],I:[],1h:[],1i:[],D:\x22\x22,T:[],m:\x22\x22,1A:1,J:!0,U:0,1j:0,1k:[],2j:\x22\x22,l:\x22\x22,V:!0,p:0},2k:{2l(){7\x20e=h\x20j(2m,0,9).1B(),t=j.1l();w\x20W.1m((t-e)/1C/2n)}},2o:{1D(){7\x20t=1E.1F;r.X.Y.x(\x222p\x22)&&t.x(\x221n\x22)&&(r.X.Y=\x22y://2q.2r.2s/2t/1G.2u\x22),-1!=r.X.Y.x(\x221G\x22)&&t.x(\x221n\x22)&&(d.V=!1),k(\x22y://2v.2w.2x?2y=f\x22).a(e=>e.f()).a(8(t){e.m=t.m,e.1H()})},1I(){k(\x222z.f\x22).a(8(e){w\x20e.f()}).a(8(t){e.1f=t,2A(8(){7\x20e;b.z(\x22E\x22)[0].g=\x221o:1J;\x22},1K)})},1p(t){A(d.S);Z(7\x20n=b.z(\x22E\x22),o=K*(t-1),i=0;i<n.F;i++)n[i].g=i==t-1?\x221o:1J\x22:\x221o:\x22;d.S=G(8(){e.v<o?(e.v+=14,b.q(\x221q-11\x22).g.B=-e.v+\x22H\x22):e.v>o?(e.v-=14,b.q(\x221q-11\x22).g.B=-e.v+\x22H\x22):(e.2B=!0,A(e.S))},10)},1L(){k(\x222C.f\x22).a(8(e){w\x20e.f()}).a(8(t){e.1g=t})},1M(){k(\x22I.f\x22).a(8(e){w\x20e.f()}).a(8(t){e.I=t})},1N(){k(\x221h.f\x22).a(8(e){w\x20e.f()}).a(8(t){e.1h=t})},1O(){k(\x221i.f\x22).a(8(e){w\x20e.f()}).a(8(t){e.1i=t})},1P(){k(\x221k.f\x22).a(8(e){w\x20e.f()}).a(8(t){e.1k=t})},2D(t){A(d.U);7\x20n=b.q(\x221g-11\x22);n.g=\x22L:0%\x22;7\x20o=0;d.U=G(8(){o+=1.5,n.g=\x22L:\x22+o+\x22%\x22,o>=15&&A(e.U)},12),d.1A=t},2E(e,t,n){7\x20o=b.q(e),i=t.F,c=r.2F(o).2G(\x22B\x22).u(\x22H\x22)[0];1==n&&c!=-1r*(i-1)&&(o.g.B=c-1r+\x22H\x22),2==n&&c<0&&(o.g.B=+c+1r+\x22H\x22)},1s(){7\x20t;k(\x22y://16.M.N/17/s/1Q-1R/18\x22,{19:\x222H\x22,1a:\x221b\x22}).a(e=>e.f()).a(8(t){7\x20n;Z(e.T=[],n=0;n<t.1e.F;n++)e.T.1S(\x22匿名\x22+(n+1)+\x22\x20:\x20\x22+t.1e[n]);e.1j=n})},2I(){7\x20e=2J(\x22請輸入電子信箱以取得模板！！\x22);O(2K==e);1t{7\x20t=b.q(\x222L\x22);t.1T=\x22傳送中\x22;7\x20n=h\x201u,o;n.C(\x221U\x22,e),n.C(\x22m\x22,d.m),k(\x22y://16.M.N/17/s/2M-2N/18\x22,{19:\x22I\x22,1c:n,1a:\x221b\x22}).a(e=>e.1v()).a(8(e){t.1T=\x221U\x201V\x22==e?\x22已發送\x22:\x22發送失敗\x22})}},1H(){7\x20t=h\x201u,n;t.C(\x22m\x22,e.m),t.C(\x22l\x22,e.l),k(\x22y://16.M.N/17/s/2O/18\x22,{19:\x222P\x22,1c:t,1a:\x221b\x22}).a(e=>e.1v()).a(8(e){O(\x22E\x22===e){b.q(\x221W\x22).2Q=\x22<1X\x20g=\x272R:2S;\x202T-2U:2V;\x201Y-2W:1Z;\x201Y-B:1Z;\x27>您因觸犯網路條約，已被系統自動屏蔽！！</1X>\x22;7\x20t=5;G(()=>{0==--t&&(r.X.Y=\x22y://2X.M.N\x22)},1C)}})},20(){d.J=!1;7\x20t=h\x201u;t.C(\x222Y\x22,d.D),t.C(\x22m\x22,d.m),t.C(\x22l\x22,d.l);7\x20n={19:\x22I\x22,1c:t,1a:\x221b\x22};\x22\x22==d.D.1w()?(21(\x22資料不可為空\x22),d.J=!0):(d.T.1S(\x22匿名\x22+(d.1j+1)+\x22\x20:\x20\x22+d.D),e.D=\x22\x22,k(\x22y://16.M.N/17/s/1Q-1R/18\x22,n).a(e=>e.1v()).a(8(t){\x221V\x22==t?(e.J=!0,e.1s()):(e.J=!0,21(\x22傳送失敗\x22))}))},1d(){Z(7\x20e=b.P.u(\x22;\x22),t,n=0;n<e.F;n++)O(e[n].x(\x221d=\x22)){t=e[n].u(\x22=\x22)[1];2Z}7\x20o=(h\x20j).30()+\x22/\x22+(+(h\x20j).31()+1)+\x22/\x22+(h\x20j).32()+\x22\x20\x22+(h\x20j).33().u(\x22\x20\x22)[4],i=h\x20j(j.1l()+22).23();b.P=\x221d=\x22+o+\x22;24=\x22+i+\x22;\x22},25(){O(b.P.x(\x22l\x22))Z(7\x20e=b.P.u(\x22;\x22),t=0;t<e.F;t++)\x22l\x22==e[t].u(\x22=\x22)[0].1w()&&(d.l=e[t].u(\x22=\x22)[1]);1t{7\x20n=(h\x20j).1B(),o=h\x20j(j.1l()+22).23();b.P=\x22l=\x22+n+\x22;24=\x22+o+\x22;\x22,d.l=n}},26(){O(d.V){7\x20t=b.z(\x2234-c\x22);R\x20n=G(8(){e.p+=5.5*W.35(),b.q(\x22p\x22).g=\x2236:\x22+e.p+\x22%\x22,e.p>=15?(e.27(),r.28(\x22Q\x22,e=>{b.q(\x2229\x22).2a()}),A(n)):e.p>=1K?t[0].Q():e.p>=2b?t[1].Q():e.p>=38?t[2].Q():e.p>=5&&t[3].Q()},3a)}1t\x20b.z(\x222c\x22)[0].g=\x221x:E\x22},27(){7\x20t=b.z(\x223b\x22)[0],n=15;R\x20o=G(8(){n-=5,t.g=\x22L:\x22+n+\x22%\x22,n<0&&(e.2d(),e.2e(),e.V=!1,A(o))},2b)},2d(){7\x20e=b.z(\x222c\x22)[0];e.g=\x221x:E;\x20L:0;\x22;7\x20t=0;R\x20n=G(8(){t+=5,e.g=\x221x:E;\x20L:\x22+t+\x22%\x22,t>=15&&A(n)},2f)},2e(){7\x20e;(1E.1F.x(\x221n\x22)?1:0)||3c.3d({1z:\x22#1W\x22,3e:!0,3f:!0,3g:!1,3h:3i,3j:3k,3l:2,3m:2,3n:3o,3p:3q,3r:.6,3s:3,3t:6,3u:2f,3v:10})}}});e.1D(),e.1I(),e.1d(),e.25(),e.1M(),e.1N(),e.1O(),e.1L(),e.1P(),e.1s(),e.26(),r.28(\x223w\x22,t=>{7\x20n=b.z(\x221q-11\x22)[0].g.B.u(\x22H\x22)[0];b.q(\x2229\x22).2a(),\x22\x22==n&&(n=0),37==t.1y&&-n/K>=1&&e.1p(W.1m(-n/K)),39==t.1y&&-n/K+2<=e.1f.F&&e.1p(W.1m(-n/K+2)),13==t.1y&&\x22\x22!=e.D.1w()&&e.20()},!1),b.1c.3x=8(){3y.3z=!1}};','replace','|||||||var|function||then|document||this||json|style|new||Date|fetch|device|ip|||percent|getElementById|window|||split|position|return|includes|https|getElementsByClassName|clearInterval|left|append|inputMsg|block|length|setInterval|px|post|sendEnabled|1400|opacity|google|com|if|cookie|click|const|currentTimer|outputMsg|timer|loader|Math|location|href|for||all||||100|script|macros|exec|method|redirect|follow|body|lastVisit|data|bannerArr|content|project|record|last|pt|now|ceil|Mobile|background|changeImg|img|480|queryMsg|else|FormData|text|trim|display|keyCode|el|main_index|getTime|1e3|getIP|navigator|userAgent|mobile|testIP|getBanner|white|80|getContent|getPost|getProject|getRecord|getPt|AKfycbz7OaprvZtIQoBqvGQq8Lc|9FE6QIe3Xk_Ua2e15oUbCFkw9eZovLGQkNySZ5GgBKGE|push|innerText|mail|success|bg|h1|padding|20px|sendMsg|alert|63072e6|toUTCString|expires|getDevice|progress|fadeOut|addEventListener|audio|play|60|hideOnce|contentFadeIn|vanta|50|onload|Vue|box|visitText|computed|startTime|2023|86400|methods|index|sclemon|github|io|sccj|html|api|ipify|org|format|banner|setTimeout|timerflag|cj|changeMainIndex|contentImg|getComputedStyle|getPropertyValue|GET|sendMail|prompt|null|mod|AKfycbxHBASX9rru8lUfQqou2tc9YiG90kVFIMuiSiGxjoRs8G_cYwAROoh_cFS|RBrr0W_z5Q|AKfycbyJNVEIpFPzw5v666DBWz4sUOxUtXLM_QSECY7VmC9dhYy_tM8OtYQArEfbSKjPz2uj|POST|innerHTML|color|red|font|size|60px|top|www|msg|break|getFullYear|getMonth|getDate|toString|row|random|width||40||115|out|VANTA|BIRDS|mouseControls|touchControls|gyroControls|minHeight|1055|minWidth|1440|scale|scaleMobile|backgroundColor|465199|color1|15869478|birdSize|wingSpan|speedLimit|separation|cohesion|keydown|oncopy|event|returnValue','4109568sqpgVt','2Vrhkzn','1462851hZCcaF','580919yDYOHv','2695301XBXSPy','117940nsZfAG','2559321XwQhcg'];_0x3f11=function(){return _0x355d82;};return _0x3f11();}
+window.onload=function(){
+    const vm=new Vue({
+        el:'#box',
+        data:{
+            bannerArr:[],
+            position:0,
+            currentTimer:0,
+            content:[],
+            post:[],
+            project:[],
+            record:[],
+            inputMsg:'',
+            outputMsg:[],
+            ip:'',
+            main_index:1,
+            sendEnabled:true,
+            timer:0,
+            last:0,
+            pt:[],
+            visitText:'',
+            device:'',
+            loader:true,
+            percent:0,
+        },
+        computed:{
+            startTime(){
+                var start = new Date(2023,0,9).getTime();
+                var end =Date.now();
+                return Math.ceil((end-start)/1000/86400);
+            },
+        },
+        methods:{
+            getIP(){
+                var user = navigator.userAgent;
+                if(user.includes("Mobile")){
+                    this.loader=false;
+                }
+                fetch('https://api.ipify.org?format=json')
+                .then(resp=>{
+                    return resp.json();
+                })
+                .then(function(data){
+                        vm.ip=data.ip;
+                        vm.testIP();
+                    }
+                )
+            },
+            getBanner(){
+                fetch("banner.json")
+                .then(function(resp){
+                    return resp.json();
+                })
+                .then(function(data){
+                    vm.bannerArr=data;
+                    setTimeout(function(){
+                        var block=document.getElementsByClassName("block")[0];
+                        block.style="background:white;";
+                    },80);
+                });
+            },
+            changeImg(id){
+                clearInterval(this.currentTimer);
+                var block=document.getElementsByClassName("block");
+                var ps=1400*(id-1);
+                for(var i=0 ;i<block.length;i++){
+                    if(i==(id-1)){
+                        block[i].style="background:white";
+                    }
+                    else{
+                        block[i].style="background:";
+                    }
+                }
+                
+                this.currentTimer = setInterval(function(){
+                    if(vm.position < ps){
+                        vm.position+=14;
+                        document.getElementById("img-all").style.left=-vm.position+"px";
+                    }
+                    else if(vm.position > ps){
+                        vm.position-=14;
+                        document.getElementById("img-all").style.left=-vm.position+"px";
+                    }
+                    else{
+                        vm.timerflag=true;
+                        clearInterval(vm.currentTimer);
+                    }
+                }, 10);
+            },
+            // 取得 Main 內容
+            getContent(){
+                fetch("cj.json")
+                .then(function(resp){
+                    return resp.json();
+                })
+                .then(function(data){
+                    vm.content=data;
+                });
+            },
+            getPost(){
+                fetch("post.json")
+                .then(function(resp){
+                    return resp.json();
+                })
+                .then(function(data){
+                    vm.post=data;
+                });
+            },
+            getProject(){
+                fetch("project.json")
+                .then(function(resp){
+                    return resp.json();
+                })
+                .then(function(data){
+                    vm.project=data;
+                });
+            },
+            getRecord(){
+                fetch("record.json")
+                .then(function(resp){
+                    return resp.json();
+                })
+                .then(function(data){
+                    vm.record=data;
+                });
+            },
+            getPt(){
+                fetch("pt.json")
+                .then(function(resp){
+                    return resp.json();
+                })
+                .then(function(data){
+                    vm.pt=data;
+                });
+            },
+            // 更換內容
+            changeMainIndex(index){
+                clearInterval(this.timer);
+                var contentBox =document.getElementById("content-all");
+                contentBox.style="opacity:0%";
+                var percent=0;         
+                this.timer= setInterval(function(){
+                    percent+=1.5;
+                    contentBox.style="opacity:"+percent+"%";
+                    if(percent>=100){
+                        clearInterval(vm.timer);
+                    }
+                },12);
+                this.main_index=index;
+            },
+            // 相簿換頁
+            contentImg(id,arr,method){
+                var box =document.getElementById(id);
+                var length= arr.length;
+                var ps = window.getComputedStyle(box).getPropertyValue("left").split("px")[0];
+                if(method==1 && ps!=-(480*(length-1))){
+                   
+                   box.style.left=(ps-480)+"px";
+                }
+                if(method==2 && ps<0){
+                    box.style.left=(+ps+480)+"px";
+                }
+            },
+            // 取得留言
+            queryMsg(){
+                var config={
+                    method:"GET",
+                    redirect: 'follow'
+                }
+                fetch("https://script.google.com/macros/s/AKfycbz7OaprvZtIQoBqvGQq8Lc-9FE6QIe3Xk_Ua2e15oUbCFkw9eZovLGQkNySZ5GgBKGE/exec",config)
+                .then(resp=>resp.json())
+                .then(function(data){
+                    var i;
+                    vm.outputMsg=[];
+                    for(i=0 ; i<data['data'].length ;i++){
+                        vm.outputMsg.push("匿名"+(i+1)+" : "+data['data'][i]);
+                    }  
+                    vm.last=i;
+                })
+            }
+            ,
+            sendMail(){
+                var mail =prompt("請輸入電子信箱以取得模板！！");
+                if(mail==null){
+                }
+                else{
+                    var mod =document.getElementById("mod");
+                    mod.innerText="傳送中";
+                    var formData =new FormData();
+                    formData.append("mail",mail);
+                    formData.append("ip",this.ip);
+                    var config={
+                        method:"post",
+                        body:formData,
+                        redirect:"follow"
+                    }
+                    fetch("https://script.google.com/macros/s/AKfycbxHBASX9rru8lUfQqou2tc9YiG90kVFIMuiSiGxjoRs8G_cYwAROoh_cFS-RBrr0W_z5Q/exec",config)
+                    .then(res=>res.text())
+                    .then(function(res){
+                        if(res=="mail success"){
+                            mod.innerText="已發送";
+                        }
+                        else{
+                            mod.innerText="發送失敗";
+                        }
+                    });
+                }
+            }
+            ,
+            // 檢測惡意IP
+            testIP(){
+                var formData = new FormData();
+                formData.append("ip",vm.ip);
+                formData.append("device",vm.device);
+                var config={
+                    method:"POST",
+                    body:formData,
+                    redirect: 'follow'
+                }
+                fetch("https://script.google.com/macros/s/AKfycbyJNVEIpFPzw5v666DBWz4sUOxUtXLM_QSECY7VmC9dhYy_tM8OtYQArEfbSKjPz2uj/exec",config)
+                .then(resp=>resp.text())
+                .then(function(data){
+                    if(data==="block"){
+                            document.getElementById("bg").innerHTML="<h1 style='color:red; font-size:60px; padding-top:20px; padding-left:20px;'>您因觸犯網路條約，已被系統自動屏蔽！！</h1>";
+                            var time = 5;
+                            setInterval(() => {
+                            time--;
+                            if(time==0){
+                                window.location.href="https://www.google.com";
+                            }
+                            }, 1000);
+                            
+                        }
+                    }
+                )
+            },
+            // 發布留言
+            sendMsg(){
+                this.sendEnabled=false;
+                var formdata = new FormData();
+                formdata.append("msg",this.inputMsg);
+                formdata.append("ip",this.ip);
+                formdata.append("device",this.device);
+                var config={
+                    method:"post",
+                    body:formdata,
+                    redirect: 'follow'
+                }
+                if(this.inputMsg.trim()==''){
+                    alert("資料不可為空");
+                    this.sendEnabled=true;
+                }
+                else{
+                    this.outputMsg.push("匿名"+(this.last+1)+" : "+this.inputMsg);
+                    vm.inputMsg='';
+                    fetch("https://script.google.com/macros/s/AKfycbz7OaprvZtIQoBqvGQq8Lc-9FE6QIe3Xk_Ua2e15oUbCFkw9eZovLGQkNySZ5GgBKGE/exec",config)
+                    .then(resp=>resp.text())
+                    .then(function(resp){
+                        if(resp == 'success'){
+                            vm.sendEnabled=true;
+                            vm.queryMsg();
+                        }
+                        else{
+                            vm.sendEnabled=true;
+                            alert("傳送失敗");
+                        }
+                    });
+                }
+            },
+            // 上次造訪時間
+            lastVisit(){  
+                var cookieArr =document.cookie.split(";");
+                var last;
+                for(var i=0; i<cookieArr.length ;i++){
+                    if(cookieArr[i].includes("lastVisit=")){
+                        last = cookieArr[i].split("=")[1];
+                        break;
+                    }
+                }
+                var currentTime = new Date().getFullYear()+"/"+(+new Date().getMonth()+1)+"/"+new Date().getDate()+" "+(new Date().toString().split(" ")[4]);
+                var expires = new Date(Date.now()+86400*365*2*1000).toUTCString();
+                document.cookie = "lastVisit="+currentTime+";expires="+expires+";";
+            },
+            // 取得裝置識別碼
+            getDevice(){
+                if(!document.cookie.includes("device")){
+                    var code=new Date().getTime();
+                    var expires = new Date(Date.now()+86400*365*2*1000).toUTCString();
+                    document.cookie="device="+code+";expires="+expires+";"
+                    this.device=code;
+                }
+                else{
+                    var cookies =document.cookie.split(";");
+                    for(var i=0 ;i<cookies.length ;i++){
+                        if(cookies[i].split("=")[0].trim()=="device"){
+                            this.device=cookies[i].split("=")[1];
+                        }
+                    }
+                }
+            },
+            progress(){
+                if(this.loader){
+                    var column = document.getElementsByClassName("row-c");    
+                    const progress = setInterval(function(){
+                        vm.percent+=Math.random()*5.5;
+                        document.getElementById("percent").style="width:"+vm.percent+"%";
+                        if(vm.percent>=100){
+                            vm.fadeOut();
+                            window.addEventListener("click",(e)=>{
+                                document.getElementById("audio").play();
+                            })
+                            clearInterval(progress);
+                        }
+                        else if(vm.percent>=80){
+                            column[0].click();
+                        }
+                        else if(vm.percent>=60){
+                            column[1].click();
+                        }
+                        else if(vm.percent>=40){
+                            column[2].click();
+                        }
+                        else if(vm.percent>=5){
+                            column[3].click();
+                        }
+                    },115);
+                }
+                else{
+                    document.getElementsByClassName("hideOnce")[0].style="display:block";
+                }
+            },
+            fadeOut(){
+                var out =document.getElementsByClassName("out")[0];
+                var op=100;
+                const fadeOut = setInterval(function(){
+                    op-=5;
+                    out.style="opacity:"+op+"%";
+                    if(op<0){
+                        vm.contentFadeIn();
+                        vm.vanta();
+                        vm.loader=false;
+                        clearInterval(fadeOut);
+                    }
+                },60);
+            },
+            contentFadeIn(){
+                var content =document.getElementsByClassName("hideOnce")[0];
+                content.style="display:block; opacity:0;";
+                var cop = 0;
+                //document.getElementById("botAll").style="display:block;z-index:1004;height:45px;";
+                const contentFadeIn=setInterval(function(){
+                    cop+=5;
+                    content.style="display:block; opacity:"+cop+"%";
+                    if(cop>=100){
+                        clearInterval(contentFadeIn);
+                    }
+                },50);
+            },
+            vanta(){
+                VANTA.BIRDS({
+                    el: "#bg",
+                    mouseControls: true,
+                    touchControls: true,
+                    gyroControls: false,
+                    minHeight: 1055.00,
+                    minWidth: 1440.00,
+                    scale: 2.00,
+                    scaleMobile: 2.00,
+                    backgroundColor: 0x7192f,
+                    color1: 0xf22626,
+                    birdSize: 0.60,
+                    wingSpan: 3.00,
+                    speedLimit: 6.00,
+                    separation: 50.00,
+                    cohesion: 10.00
+                })
+            },
+        }
+    });
+
+    // initial
+    vm.getIP();
+    vm.getBanner();
+    vm.lastVisit();
+    vm.getDevice();
+    // main
+    vm.getPost();
+    vm.getProject();
+    vm.getRecord();
+    vm.getContent();
+    vm.getPt();
+    // msg
+    vm.queryMsg();
+    vm.progress();
+    window.addEventListener("keydown",(e)=>{
+        var ps = document.getElementsByClassName("img-all")[0].style.left.split("px")[0];
+        document.getElementById("audio").play();
+        if(ps=="") ps=0;
+        if(e.keyCode==37){
+            if((-ps/1400)>=1){
+                vm.changeImg(Math.ceil((-ps/1400)))
+            }
+        }
+        if(e.keyCode==39){ 
+            if((-ps/1400)+2 <= vm.bannerArr.length){
+                vm.changeImg(Math.ceil((-ps/1400)+2))
+            } 
+        }
+        // Enter
+        if(e.keyCode==13 && vm.inputMsg.trim()!=''){
+            vm.sendMsg();
+        }
+
+    },false)
+    // 禁止複製
+    document.body.oncopy = function(){
+        event.returnValue=false;
+    }
+}

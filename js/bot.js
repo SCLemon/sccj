@@ -1,1 +1,249 @@
-function _0xd32b(){var _0x20a57c=['||botui|bot|function|return|delay||1e3|then||message|content|you|value|action|the|yes||if|to|text|would|style|button|this|255|block|||display|var|cookieArr|document|last||And|stat|Nice|in|and|some|as|it||website|be|chatroom|height|index|1004|title|split|includes|new|BotUI|can|know|how|This|is|also|board|filthy|words|What|are|rules|using|system|time|change|nice|visitor|It|record|If|have|contact|Thank|no|querySelector|none|45px|hide|open|color|rgba|for|cookie|length|lastVisit|break|app|meet|am|SCLemon|who|majors|ESS|NTHU|How|help|like|page|work|based|on|VueJS|VantaJS|plugins|Anything|else|use|technique|Google|AppScript|create|an|added|method|let|instantly|update|filter|In|order|punish|whom|breaks|rule|automaticly|them|The|tools|attack|or|catch|someone|Just|input|at|not|insert|data|into|database|next|by|forever|even|your|IP|Address|Thus|please|about|other|features|lastTime|visit|visited|yyyy|MM|dd|HH|mm|ss|Your|lastVist|want|End|chat|available|from|Contact|sidebar|That|fine|there|anything|wrong|plz|us|sincerely|thank|Wish|day|Have|Day|too|getElementById|botAll|botTitle|changeBot|console|log|362px','7929176UtWVYo','348wnzJsB','92544yQpFwi','fromCharCode','replace','280947KpEiaa','382tSJgfS','\x5cw+','1453249mRioYs','1410906XesApA','toString','1177760GcbSOm'];_0xd32b=function(){return _0x20a57c;};return _0xd32b();}function _0x46c8(_0x49904c,_0x390937){var _0x46c86d=_0xd32b();return _0x46c8=function(_0x2d2165,_0x20255f){_0x2d2165=_0x2d2165-0x16f;var _0x1aefbb=_0x46c86d[_0x2d2165];return _0x1aefbb;},_0x46c8(_0x49904c,_0x390937);}var _0x170775=_0x46c8;(function(_0x5f5b93,_0x2a5d74){var _0x42ffd9=_0x46c8,_0x303abc=_0x5f5b93();while(!![]){try{var _0x5636da=-parseInt(_0x42ffd9(0x173))/0x1*(parseInt(_0x42ffd9(0x178))/0x2)+-parseInt(_0x42ffd9(0x177))/0x3+parseInt(_0x42ffd9(0x174))/0x4+-parseInt(_0x42ffd9(0x170))/0x5+-parseInt(_0x42ffd9(0x17b))/0x6+-parseInt(_0x42ffd9(0x17a))/0x7+parseInt(_0x42ffd9(0x172))/0x8;if(_0x5636da===_0x2a5d74)break;else _0x303abc['push'](_0x303abc['shift']());}catch(_0x3a9490){_0x303abc['push'](_0x303abc['shift']());}}}(_0xd32b,0x2aef0),eval(function(_0x564632,_0x2d5643,_0x366d21,_0x4f25cd,_0x161f8b,_0x250f46){var _0x19e67b=_0x46c8;_0x161f8b=function(_0x480555){var _0x158f8e=_0x46c8;return(_0x480555<_0x2d5643?'':_0x161f8b(parseInt(_0x480555/_0x2d5643)))+((_0x480555=_0x480555%_0x2d5643)>0x23?String[_0x158f8e(0x175)](_0x480555+0x1d):_0x480555[_0x158f8e(0x16f)](0x24));};if(!''[_0x19e67b(0x176)](/^/,String)){while(_0x366d21--)_0x250f46[_0x161f8b(_0x366d21)]=_0x4f25cd[_0x366d21]||_0x161f8b(_0x366d21);_0x4f25cd=[function(_0x526112){return _0x250f46[_0x526112];}],_0x161f8b=function(){var _0x36507a=_0x19e67b;return _0x36507a(0x179);},_0x366d21=0x1;};while(_0x366d21--)if(_0x4f25cd[_0x366d21])_0x564632=_0x564632[_0x19e67b(0x176)](new RegExp('\x5cb'+_0x161f8b(_0x366d21)+'\x5cb','g'),_0x4f25cd[_0x366d21]);return _0x564632;}('1q(v\x20w=x.1r.Q(\x22;\x22),y=\x22\x22,i=0;i<w.1s;i++)j(w[i].R(\x221t=\x22)){y=w[i].Q(\x22=\x22)[1];1u}v\x202=S\x20T(\x222-1v\x22);2.b.3(\x22C\x20k\x201w\x20d!!\x22).9(4(){5\x202.b.3({6:8,c:\x22I\x201x\x201y\x201z\x201A\x20D\x201B\x20D\x201C.\x22})}).9(4(){5\x202.b.3({6:8,c:\x221D\x20U\x20I\x201E\x20d?\x22})}).9(4(){5\x202.f.o({6:8,f:[{l:\x22I\x20m\x201F\x20k\x20V\x20W\x20p\x201G\x201H.\x22,e:\x22h\x22}]})}).9(4(t){j(\x22h\x22==t.e)5\x202.b.3({6:8,c:\x22X\x20Y\x201I\x201J\x201K,1L,T,E\x20F\x201M.\x22})}).9(4(){5\x202.f.o({6:8,f:[{l:\x221N\x201O?\x22,e:\x22h\x22}]})}).9(4(t){j(\x22h\x22==t.e)5\x202.b.3({6:8,c:\x22X\x20Z\x201P\x20g\x201Q\x20G\x201R\x201S\x20k\x201T\x201U\x20b\x2010.\x22})}).9(4(t){5\x202.b.3({6:8,c:\x22A\x201V\x20a\x201W\x20k\x201X\x20H\x201Y\x201Z\x20E\x2020\x20F\x2011\x2012.\x22})}).9(4(t){5\x202.b.3({6:8,c:\x2221\x2022\x20k\x2023\x2024\x2025\x20g\x2026,p\x20J\x20m\x2027\x20r\x2028.\x22})}).9(4(){5\x202.f.o({6:8,f:[{l:\x2213\x2014\x20g\x2015?\x22,e:\x22h\x22}]})}).9(4(t){j(\x22h\x22==t.e)5\x202.b.3({6:8,c:\x2229\x2015\x20R\x2016\x2011\x2012\x20E\x2016\x20F\x202a\x20k\x202b\x202c\x202d\x202e.\x22})}).9(4(t){5\x202.b.3({6:8,c:\x222f\x20G\x20j\x20d\x202g\x20\x27白痴\x27\x202h\x20g\x20b\x2010,g\x2017\x20m\x202i\x202j\x20p\x202k\x202l\x20g\x202m.\x22})}).9(4(t){5\x202.b.3({6:8,c:\x22A\x202n\x2018,d\x20m\x20K\x20r\x202o\x20g\x2017\x202p\x202q\x20j\x20d\x2019\x202r\x202s\x202t.\x22})}).9(4(t){5\x202.b.3({6:8,c:\x222u,2v\x20K\x20a\x201a\x201b~\x22})}).9(4(){5\x202.f.o({6:8,f:[{l:\x2213\x202w\x202x\x202y?\x22,e:\x22h\x22}]})}).9(4(t){j(\x22h\x22==t.e)5\x202.b.3({6:8,c:\x221c\x27s\x20Z\x201d\x20g\x202z\x20d\x202A\x20p\x20J.\x22})}).9(4(t){5\x202.b.3({6:8,c:\x221e\x20d\x2014\x20g\x20S\x201b,H\x20m\x201d\x20p\x2018.\x22})}).9(4(t){5\x202.b.3({6:8,c:\x221e\x20d\x201f\x202B\x20p\x20J,H\x20m\x205\x20G\x202C-2D-2E\x202F-2G-2H.\x22})}).9(4(t){j(\x22\x22!=y)5\x202.b.3({6:8,c:\x222I\x202J:\x22+y})}).9(4(){5\x202.f.o({6:8,f:[{l:\x22C,A\x20I\x20m\x202K\x20k\x20V\x20W\x20k\x201g\x20d?\x22,e:\x22h\x22},{l:\x221h\x20d~\x202L\x20g\x202M.\x22,e:\x221i\x22}]})}).9(4(t){5\x22h\x22==t.e?2.b.3({6:8,c:\x221c\x20U\x20K\x202N\x202O\x20g\x202P\x20D\x20g\x202Q.\x22}):2.b.3({6:8,c:\x222R\x27s\x202S.\x22})}).9(4(t){5\x202.b.3({6:8,c:\x22A\x20j\x202T\x20Y\x202U\x202V,2W\x201g\x202X.\x22})}).9(4(t){5\x202.b.3({6:8,c:\x22I\x20m\x202Y\x202Z\x20d!!\x22})}).9(4(t){5\x202.b.3({6:8,c:\x2230\x20d\x201f\x20a\x201a\x2031~\x22})}).9(4(){5\x202.f.o({6:8,f:[{l:\x2232\x20a\x20C\x2033,34!!\x22,e:\x22h\x22},{l:\x221h\x20d~.\x22,e:\x221i\x22}]})});v\x203=x.35(\x2236\x22),L=x.1j(\x22.3\x22);3.n=\x22u:1k;\x20M:1l;\x20z-N:O;\x22;v\x20P=x.1j(\x22.37\x22),B=\x221m\x22;38=4(){39.3a(\x2219\x22),\x221n\x22==B?(B=\x221m\x22,3.n=\x22u:r;\x20M:1l;\x20z-N:O;\x22,L.n=\x22u:1k;\x22,P.n=\x221o:1p(q,q,q,0.7);\x22):(B=\x221n\x22,3.n=\x22u:r;\x20M:3b;\x20z-N:O;\x22,L.n=\x22u:r;\x22,P.n=\x221o:1p(q,q,q,1.0);\x22)};',0x3e,0xc6,_0x170775(0x171)['split']('|'),0x0,{})));
+var cookieArr =document.cookie.split(";");
+var last='';
+for(var i=0; i<cookieArr.length ;i++){
+  if(cookieArr[i].includes("lastVisit=")){
+    last = cookieArr[i].split("=")[1];
+     break;
+  }
+}
+var botui = new BotUI('botui-app');
+botui.message.bot( // show first message
+   'Nice to meet you!!'
+  ).then(function () {
+    return botui.message.bot({ // second one
+      delay: 1000, // wait 1 sec.
+      content: 'I am SCLemon who majors in ESS in NTHU.'
+    });
+  }).then(function () {
+    return botui.message.bot({ // second one
+      delay: 1000, // wait 1 sec.
+      content: 'How can I help you?'
+    });
+  }).then(function () {
+    return botui.action.button({ // let user do something
+      delay: 1000,
+      action: [
+        {
+          text: 'I would like to know how this page work.',
+          value: 'yes'
+        },
+        // {
+        //   text: 'Nothing,I just passing by here',
+        //   value: 'no'
+        // }
+      ]
+    });
+  }).then(function (res) {
+    if(res.value=="yes"){
+      return botui.message.bot({
+        delay: 1000,
+        content: "This is based on VueJS,VantaJS,BotUI,and some plugins.",
+      });
+    }
+    else{
+      // return botui.message.bot({
+      //   delay: 1000,
+      //   content: "That's fine. Wish you have a nice day~",
+      // });
+    } 
+  }).then(function () {
+    return botui.action.button({ // let user do something
+      delay: 1000,
+      action: [
+        {
+          text: 'Anything else?',
+          value: 'yes'
+        },
+        // {
+        //   text: 'All right! Thank you~',
+        //   value: 'no'
+        // }
+      ]
+    });
+  }).then(function (res) {
+    if(res.value=="yes"){
+      return botui.message.bot({
+        delay: 1000,
+        content: "This also use the technique as Google AppScript to create an message board.",
+      });
+    }
+    else{
+      // return botui.message.bot({
+      //   delay: 1000,
+      //   content: "That's fine. Wish you have a nice day~",
+      // });
+    } 
+  }).then(function (res) {
+    return botui.message.bot({
+      delay: 1000,
+      content: "And added a method to let it instantly update and filter some filthy words.",
+    });
+  }).then(function (res) {
+    return botui.message.bot({
+      delay: 1000,
+      content: "In order to punish whom breaks the rule,this website would automaticly block them.",
+    });
+  }).then(function () {
+    return botui.action.button({ // let user do something
+      delay: 1000,
+      action: [
+        {
+          text: 'What are the rules?',
+          value: 'yes'
+        },
+        // {
+        //   text: 'All right! Thank you~',
+        //   value: 'no'
+        // }
+      ]
+    });
+  }).then(function (res) {
+    if(res.value=="yes"){
+      return botui.message.bot({
+        delay: 1000,
+        content: "The rules includes using filthy words and using some tools to attack or catch someone.",
+      });
+    }
+    else{
+      // return botui.message.bot({
+      //   delay: 1000,
+      //   content: "That's fine. Wish you have a nice day~",
+      // });
+    } 
+  }).then(function (res) {
+    return botui.message.bot({
+      delay: 1000,
+      content: "Just as if you input '白痴' at the message board,the system would not insert this data into the database.",
+    });
+  }).then(function (res) {
+    return botui.message.bot({
+      delay: 1000,
+      content: "And next time,you would be block by the system forever even if you change your IP Address.",
+    });
+  }).then(function (res) {
+    return botui.message.bot({
+      delay: 1000,
+      content: "Thus,please be a nice visitor~",
+    });
+  }).then(function () {
+    return botui.action.button({ // let user do something
+      delay: 1000,
+      action: [
+        {
+          text: 'What about other features?',
+          value: 'yes'
+        },
+        // {
+        //   text: 'All right! Thank you~',
+        //   value: 'no'
+        // }
+      ]
+    });
+  }).then(function (res) {
+    if(res.value=="yes"){
+      return botui.message.bot({
+        delay: 1000,
+        content: "It's also record the lastTime you visit this website.",
+      });
+    }
+    else{
+      // return botui.message.bot({
+      //   delay: 1000,
+      //   content: "That's fine. Wish you have a nice day~",
+      // });
+    } 
+  }).then(function (res) {
+    return botui.message.bot({
+      delay: 1000,
+      content: "If you are the new visitor,it would record this time.",
+    });
+  }).then(function (res) {
+    return botui.message.bot({
+      delay: 1000,
+      content: "If you have visited this website,it would return as yyyy-MM-dd HH-mm-ss.",
+    });
+  }).then(function (res) {
+    if(last!='')
+    return botui.message.bot({
+      delay: 1000,
+      content: "Your lastVist:"+last,
+    });
+  }).then(function () {
+    return botui.action.button({ // let user do something
+      delay: 1000,
+      action: [
+        {
+          text: 'Nice,And I would want to know how to contact you?',
+          value: 'yes'
+        },
+        {
+          text: 'Thank you~ End the chat.',
+          value: 'no'
+        }
+      ]
+    });
+  }).then(function (res) {
+    if(res.value=="yes"){
+      return botui.message.bot({
+        delay: 1000,
+        content: "It can be available from the Contact in the sidebar.",
+      });
+    }
+    else{
+      return botui.message.bot({
+        delay: 1000,
+        content: "That's fine.",
+      });
+    } 
+  }).then(function (res) {
+    return botui.message.bot({
+      delay: 1000,
+      content: "And if there is anything wrong,plz contact us.",
+    });
+  }).then(function (res) {
+    return botui.message.bot({
+      delay: 1000,
+      content: "I would sincerely thank you!!",
+    });
+  }).then(function (res) {
+    return botui.message.bot({
+      delay: 1000,
+      content: "Wish you have a nice day~",
+    });
+  }).then(function () {
+    return botui.action.button({ // let user do something
+      delay: 1000,
+      action: [
+        {
+          text: 'Have a Nice Day,too!!',
+          value: 'yes'
+        },
+        {
+          text: 'Thank you~.',
+          value: 'no'
+        }
+      ]
+    });
+  });
+
+
+  // 操縱開關
+  var bot =document.getElementById("botAll");
+  var chatroom =document.querySelector(".bot");
+  bot.style="display:none; height:45px; z-index:1004;";
+  var title =document.querySelector(".botTitle");
+  var stat="hide";
+  changeBot=function(){
+    console.log("change")
+    if(stat=="open"){
+        stat="hide";
+        bot.style="display:block; height:45px; z-index:1004;";
+        chatroom.style="display:none;";
+        title.style="color:rgba(255,255,255,0.7);";
+    }else{
+        stat="open";
+        bot.style="display:block; height:362px; z-index:1004;";
+        chatroom.style="display:block;";
+        title.style="color:rgba(255,255,255,1.0);";
+    }
+}
