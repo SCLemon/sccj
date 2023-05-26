@@ -22,7 +22,8 @@ window.onload=function(){
             loader:true,
             percent:0,
             changebgTimes:1,
-            currentBg:"black"
+            currentBg:"black",
+            updateList:[]
         },
         computed:{
             startTime(){
@@ -133,6 +134,15 @@ window.onload=function(){
                 })
                 .then(function(data){
                     vm.pt=data;
+                });
+            },
+            getList(){
+                fetch("updateList.json")
+                .then(function(resp){
+                    return resp.json();
+                })
+                .then(function(data){
+                    vm.updateList=data;
                 });
             },
             // 更換內容
@@ -411,6 +421,7 @@ window.onload=function(){
     vm.getRecord();
     vm.getContent();
     vm.getPt();
+    vm.getList();
     // msg
     vm.queryMsg();
     vm.progress();

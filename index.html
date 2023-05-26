@@ -12,6 +12,7 @@
     <!-- main.js -->
     <script src="js/vue.js"></script>
     <script src="js/index.js"></script>
+    
     <link rel="icon" href="material/lemon.svg">
     
     <!-- bot.css -->
@@ -315,6 +316,7 @@
                         <div class="row-c" @click="changeMainIndex(2)">作品列表</div>
                         <div class="row-c" @click="changeMainIndex(3)">夢想里程碑</div>
                         <div class="row-c" @click="changeMainIndex(4)">旅遊日記</div>
+                        <div class="row-c" @click="changeMainIndex(5)">更新日誌</div>
                     </div>
                     <div id="content-all">
                         <div class="content" v-if="main_index==1" v-for="obj in post">
@@ -381,6 +383,7 @@
                                 <span>時間：<span v-text="obj.date"></span></span>
                             </div>
                         </div>
+                        <div class="update" v-if="main_index==5" v-for="t in updateList" v-text="t"></div>
                     </div>
                 </div>
             </div>
