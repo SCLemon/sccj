@@ -23,7 +23,7 @@ window.onload=function(){
             percent:0,
             changebgTimes:1,
             currentBg:"black",
-            updateList:[]
+            updateList:[],
         },
         computed:{
             startTime(){
@@ -192,15 +192,19 @@ window.onload=function(){
             }
             ,
             sendMail(){
-                var mail =prompt("請輸入電子信箱以取得模板！！");
-                if(mail==null){
+                var mail =prompt("請輸入電子信箱！！");
+                var msg  =prompt("請輸入想對未來的自己說的話！！");
+                if(mail==null || msg==null || mail.trim()=="" || msg.trim()==""){
+                    alert("內容錯誤或內容不可為空");
                 }
                 else{
                     var mod =document.getElementById("mod");
                     mod.innerText="傳送中";
                     var formData =new FormData();
                     formData.append("mail",mail);
+                    formData.append("msg",msg);
                     formData.append("ip",this.ip);
+                    formData.append("device",this.device);
                     var config={
                         method:"post",
                         body:formData,
@@ -211,6 +215,10 @@ window.onload=function(){
                     .then(function(res){
                         if(res=="mail success"){
                             mod.innerText="已發送";
+                        }
+                        else if(res=="block"){
+                            mod.innerText="異常操作";
+                            vm.testIP();
                         }
                         else{
                             mod.innerText="發送失敗";
@@ -406,7 +414,7 @@ window.onload=function(){
                     }
                 }
                 this.changebgTimes++;
-            }
+            },
         }
     });
 
