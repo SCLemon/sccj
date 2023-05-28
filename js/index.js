@@ -197,7 +197,7 @@ window.onload=function(){
                 if(mail==null || msg==null || mail.trim()=="" || msg.trim()==""){
                     alert("內容錯誤或內容不可為空");
                 }
-                else if(mail.trim().length<50){
+                else if(msg.trim().length<50){
                     alert("內容需多於50字");
                 }
                 else{
