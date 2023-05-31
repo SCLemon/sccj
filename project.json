@@ -1,4 +1,12 @@
 [{
+    "id":"6",
+    "date":"2023.05.29",
+    "event":"[Line API] Bubu飲食管理",
+    "content":"利用 AppScript 將 Google Sheet 作為飲食配置設定，當特定時間到達時，自動將當前對應資料寄送 Mail 至各位主人的信箱中作為餵食提醒（可無需開啟 sheet 即可得知本次餵食內容），此外，為了更有效的傳遞提醒，本次新加入了 Line Notify 以及 Line Messaging 的串接，除了信箱發送事前提醒外，在 Line 中也會傳遞狀態訊息（亦可輸入特定的指令查詢狀態）。為了避免忘記餵食，系統將會在每半小時自動判斷時距，距離上次餵食時間超過指定時距後，將會發送 Line 提醒。最後，為了使用者方便（且多為 mobile 使用者），故額外架設了一個以 Mobile 為主設計的網頁作為紀錄使用，當按下完成確認並且輸入特定的 PassWord 後，sheet中將會記錄餵食時間，可以有效掌握 Bubu 的飼養狀況。",
+    "img":["project/github.webp"],
+    "link":"https://sclemon.github.io/bubu/"
+},
+{
     "id":"5",
     "date":"2023.05.11",
     "event":"UBike 即時資料自動查詢",
