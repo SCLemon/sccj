@@ -326,7 +326,7 @@ window.onload=function(){
                 if(this.loader){
                     var column = document.getElementsByClassName("row-c");    
                     const progress = setInterval(function(){
-                        vm.percent+=Math.random()*5.5;
+                        vm.percent+=Math.random()*6.0;
                         document.getElementById("percent").style="width:"+vm.percent+"%";
                         if(vm.percent>=100){
                             var slider = document.getElementById("switch");
@@ -341,7 +341,7 @@ window.onload=function(){
                         else if(vm.percent>=60) column[1].click();
                         else if(vm.percent>=40) column[2].click();
                         else if(vm.percent>=5) column[3].click();
-                    },105);
+                    },95);
                 }
                 else{
                     document.getElementsByClassName("hideOnce")[0].style="display:block";
