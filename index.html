@@ -386,6 +386,9 @@
                             <div class="ctext">
                                 <a target="_blank" :href="obj.link" v-text="obj.event"></a>
                                 <p v-text="obj.content"></p>
+                                <div class="tag">
+                                    <i v-for="tag in obj.tag" class="fa-solid fa-tag"><span v-text="tag"></span></i>
+                                </div>
                                 <span>時間：<span v-text="obj.date"></span></span>
                             </div>
                         </div>

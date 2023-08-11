@@ -233,9 +233,26 @@ body{
     overflow: scroll;
 }
 .ctext>span{
+    color: rgba(255,255,255,0.7);
     position: absolute;
     bottom: -10px;
     right: 22px;
+}
+.tag{
+    position: absolute;
+    bottom: -23px;
+    left: 20px;
+    width: 230px;
+    height: 30px;
+    white-space: nowrap;
+    overflow: scroll;
+}
+.tag>i{
+    color: rgba(255,255,255,0.7); 
+}
+.tag span{
+    padding-left: 2px;
+    padding-right: 4px;
 }
 .start{
     color: white;
