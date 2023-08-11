@@ -19,7 +19,7 @@ window.onload=function(){
             pt:[],
             visitText:'',
             device:'',
-            loader:false,
+            loader:true,
             percent:0,
             changebgTimes:1,
             currentBg:"black",
