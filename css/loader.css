@@ -53,7 +53,7 @@
   top: 5.5vw;
   bottom: 0;
 }
-
+ 
 .five {
   transform: rotate(225deg);
   left: 0;
@@ -339,8 +339,31 @@
   height: 100%;
   z-index: 1003;
 }
+.bar{
+  overflow: visible;
+}
+.progress{
+  height: 4px;
+  overflow: visible;
+}
 .percent{
   height: 100%;
   width: 0;
-  background-color: rgb(255, 4, 255);
+  background-image: linear-gradient(to right,rgb(255, 4, 255),rgb(249, 244, 249));
+  position: relative;
+}
+.percent>i{
+  font-size: 24px;
+  position: absolute;
+  right: -10px;
+  top:-10px;
+  color: white;
+  display: block;
+}
+.perNum{
+  width: 100%;
+  height: 20px;
+  margin-bottom: 3px;
+  color: white;
+  text-align: center;
 }

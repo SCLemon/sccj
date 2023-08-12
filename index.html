@@ -50,7 +50,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/quicklink/2.3.0/quicklink.umd.js"></script>
     <script>
         window.addEventListener('load', () => {
-        quicklink.listen();
+            quicklink.listen();
         });
     </script>
 </head>
@@ -68,8 +68,9 @@
                     <div class="seven common"></div>
                     <div class="eight common"></div>
                 </div>
+                <div class="perNum">{{percent}}%</div>
                 <div class="bar">
-                    <div class="progress"><div class="percent" id="percent"></div></div>
+                    <div class="progress"><div class="percent" id="percent"><i class="fa-solid fa-star fa-spin"></i></div></div>
                 </div>
             </div>
         </div>
