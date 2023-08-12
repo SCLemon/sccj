@@ -261,10 +261,43 @@ body{
     margin: 0 auto;
     position: relative;
 }
-.start h1{
+.interval{
     text-align: center;
-    line-height: 100px;
-    font-size: 38px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.interval>i{
+    font-size: 36px;
+}
+.interval_content{
+    width: 100px;
+    height: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sp{
+    border-right: 1px solid rgba(255,255,255,0.3);
+}
+.number{
+    width: 100%;
+    height: 67%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+}
+.number_title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    width: 100%;
+    height: 33%;
+    color: rgba(255,255,255,0.7);
 }
 
 /* column */

@@ -24,13 +24,29 @@ window.onload=function(){
             changebgTimes:1,
             currentBg:"black",
             updateList:[],
+            deltaTime:[{
+                time:'',
+                title:'Days'
+            },
+            {
+                time:'',
+                title:'Hours'
+            },
+            {
+                time:'',
+                title:'Minutes'
+            },
+            {
+                time:'',
+                title:'Seconds'
+            }],
         },
         computed:{
-            startTime(){
-                var start = new Date(2023,0,9).getTime();
-                var end =Date.now();
-                return Math.ceil((end-start)/1000/86400);
-            },
+            // startTime(){
+            //     var start = new Date(2023,0,9).getTime();
+            //     var end =Date.now();
+            //     return Math.ceil((end-start)/1000/86400);
+            // },
         },
         methods:{
             getIP(){
@@ -330,6 +346,7 @@ window.onload=function(){
                         document.getElementById("percent").style="width:"+vm.percent+"%";
                         if(vm.percent>=100){
                             var slider = document.getElementById("switch");
+                            column[3].click();
                             slider.click();
                             vm.fadeOut();
                             window.addEventListener("click",(e)=>{
@@ -410,9 +427,23 @@ window.onload=function(){
                 }
                 this.changebgTimes++;
             },
+            calTime(){
+                var start = new Date(2023,0,9).getTime(); 
+                var delta;
+                setInterval(() => {
+                    delta=Date.now()-start;
+                    this.deltaTime[0].time=parseInt(delta/1000/86400),
+                    delta-=this.deltaTime[0].time*1000*86400;
+                    this.deltaTime[1].time=parseInt(delta/1000/3600);
+                    delta-=this.deltaTime[1].time*1000*3600;
+                    this.deltaTime[2].time=parseInt(delta/1000/60);
+                    delta-=this.deltaTime[2].time*1000*60;
+                    this.deltaTime[3].time=parseInt(delta/1000);
+                }, 1000);
+            }
         }
     });
-
+    vm.calTime();
     // initial
     vm.getIP();
     vm.getBanner();

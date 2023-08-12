@@ -397,7 +397,13 @@
                 </div>
             </div>
             <div class="start">
-                <h1><i class="fa-solid fa-heart fa-beat"></i> 第 <span v-text="startTime"></span> 天</h1>
+                <div class="interval">
+                    <i class="fa-solid fa-heart fa-beat"></i>
+                    <div class="interval_content sp" v-for="obj in deltaTime">
+                        <div class="number" v-text="obj.time"></div>
+                        <span class="number_title" v-text="obj.title"></span>
+                    </div>
+                </div>
                 <label>
                     <input type="checkbox" class="slider">
                     <div class="switch" id="switch" @click="changeBg()">
@@ -446,7 +452,7 @@
                         </div>
                     </div>
                 </label>
-                <div class="future" id="mod" @click="sendMail()">Download</div>
+                <!-- <div class="future" id="mod" @click="sendMail()">Download</div> -->
             </div>
             <audio loop hidden src="audio/background.mp3" id="audio"></audio>
         </div>
