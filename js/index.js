@@ -40,6 +40,12 @@ window.onload=function(){
                 time:'',
                 title:'Seconds'
             }],
+            score:0,
+            Mleft:0,
+            Mtop:0,
+            monsterScore:0,
+            maxWidth:1300,
+            maxHeight:550
         },
         computed:{
             // startTime(){
@@ -340,9 +346,11 @@ window.onload=function(){
             },
             progress(){
                 if(this.loader){
+                    this.Mleft=(Math.random()*this.maxWidth+20)+"px";
+                    this.Mtop=(Math.random()*this.maxHeight+20)+"px";
                     var column = document.getElementsByClassName("row-c");    
                     const progress = setInterval(function(){
-                        vm.percent+=Math.round(Math.random()*4.5);
+                        vm.percent+=Math.round(Math.random()*2.5);
                         document.getElementById("percent").style="width:"+vm.percent+"%";
                         if(vm.percent>=100){
                             vm.percent=100;
@@ -359,7 +367,7 @@ window.onload=function(){
                         else if(vm.percent>=60) column[1].click();
                         else if(vm.percent>=40) column[2].click();
                         else if(vm.percent>=5) column[3].click();
-                    },120);
+                    },130);
                 }
                 else{
                     document.getElementsByClassName("hideOnce")[0].style="display:block";
@@ -383,7 +391,6 @@ window.onload=function(){
                 var content =document.getElementsByClassName("hideOnce")[0];
                 content.style="display:block; opacity:0;";
                 var cop = 0;
-                //document.getElementById("botAll").style="display:block;z-index:1004;height:45px;";
                 const contentFadeIn=setInterval(function(){
                     cop+=5;
                     content.style="display:block; opacity:"+cop+"%";
@@ -441,15 +448,22 @@ window.onload=function(){
                     delta-=this.deltaTime[2].time*1000*60;
                     this.deltaTime[3].time=parseInt(delta/1000);
                 }, 1000);
+            },
+            monster(){
+                this.monsterScore+=10;
+                this.Mleft=(Math.random()*this.maxWidth+40)+"px";
+                this.Mtop=(Math.random()*this.maxHeight+40)+"px";
+                vm.percent+=1;
+                document.getElementById("percent").style="width:"+vm.percent+"%";
             }
         }
     });
-    vm.calTime();
     // initial
     vm.getIP();
     vm.getBanner();
     vm.lastVisit();
     vm.getDevice();
+    vm.calTime();
     // main
     vm.getPost();
     vm.getProject();
@@ -485,27 +499,27 @@ window.onload=function(){
 }
 
 //屏蔽F12和右键
-// function click(e) {
-//     if (document.all) {
-//         if (event.button == 2 || event.button == 3) {
-//             oncontextmenu = 'return false';
-//         }
-//     }
-//     if (document.layers) {
-//         if (e.which == 3) {
-//             oncontextmenu = 'return false';
-//         }
-//     }
-// }
-// if (document.layers) {
-//     document.captureEvents(Event.MOUSEDOWN);
-// }
-// document.onmousedown = click;
-// document.oncontextmenu = new Function("return false;")
+function click(e) {
+    if (document.all) {
+        if (event.button == 2 || event.button == 3) {
+            oncontextmenu = 'return false';
+        }
+    }
+    if (document.layers) {
+        if (e.which == 3) {
+            oncontextmenu = 'return false';
+        }
+    }
+}
+if (document.layers) {
+    document.captureEvents(Event.MOUSEDOWN);
+}
+document.onmousedown = click;
+document.oncontextmenu = new Function("return false;")
 
-// document.onkeydown = document.onkeyup = document.onkeypress = function () {
-//     if (window.event.keyCode == 123) {
-//         window.event.returnValue = false;
-//         return (false);
-//     }
-// }
+document.onkeydown = document.onkeyup = document.onkeypress = function () {
+    if (window.event.keyCode == 123) {
+        window.event.returnValue = false;
+        return (false);
+    }
+}

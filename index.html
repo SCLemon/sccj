@@ -48,6 +48,10 @@
     <script src="https://kit.fontawesome.com/026fbb8b51.js" crossorigin="anonymous"></script>
     <!-- Quicklink -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/quicklink/2.3.0/quicklink.umd.js"></script>
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Noto+Sans+TC:wght@300&family=Ubuntu&display=swap" rel="stylesheet">
     <script>
         window.addEventListener('load', () => {
             quicklink.listen();
@@ -72,6 +76,13 @@
                 <div class="bar">
                     <div class="progress"><div class="percent" id="percent"><i class="fa-solid fa-star fa-spin"></i></div></div>
                 </div>
+            </div>
+            <i class="fa-solid fa-ghost fa-fade monster" id="monster" @click="monster()" :style="{left:Mleft,top:Mtop}"></i>
+            <div class="monsterScore" id="monsterScore">Score：{{monsterScore}}</div>
+            <div class="webInfo">
+                <img src="material/logo.png" alt="">
+                <span>著作聲明：本網頁設計使用部分開源套件進行設計</span>
+                <span>Created by SCLemon <i class="fa-regular fa-registered"></i> 2023</span>
             </div>
         </div>
         <div class="hideOnce">
