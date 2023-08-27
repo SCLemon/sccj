@@ -1,4 +1,12 @@
 [{
+    "id":"7",
+    "date":"2023.08.26",
+    "event":"[Canvas] 每日刮刮樂",
+    "content":"利用 AppScript 搭配 Canvas 技術進行刮刮樂設計，其中功能包含：隨機抽取刮刮卡、刷新/重抽刮刮卡、手動/自動刮取、歷史紀錄、兌換獎勵、兌換後通知、抽獎機率加成、前後端雙層安全驗證。",
+    "img":["project/github.webp"],
+    "link":"https://sclemon.github.io/lottery/"
+},
+{
     "id":"6",
     "date":"2023.05.29",
     "event":"[Line API] Bubu飲食管理",
