@@ -72,13 +72,13 @@
                     <div class="seven common"></div>
                     <div class="eight common"></div>
                 </div>
-                <div class="perNum">{{percent}}%</div>
+                <div class="perNum"><span v-text="percent"></span>%</div>
                 <div class="bar">
                     <div class="progress"><div class="percent" id="percent"><i class="fa-solid fa-star fa-spin"></i></div></div>
                 </div>
             </div>
             <i class="fa-solid fa-ghost fa-fade monster" id="monster" @click="monster()" :style="{left:Mleft,top:Mtop}"></i>
-            <div class="monsterScore" id="monsterScore">Score：{{monsterScore}}</div>
+            <div class="monsterScore" id="monsterScore">Score：<span v-text="monsterScore"></span></div>
             <div class="webInfo">
                 <img src="material/logo.png" alt="">
                 <span>著作聲明：本網頁設計使用部分開源套件進行設計</span>
