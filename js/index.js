@@ -350,7 +350,7 @@ window.onload=function(){
                     this.Mtop=(Math.random()*this.maxHeight+20)+"px";
                     var column = document.getElementsByClassName("row-c");    
                     const progress = setInterval(function(){
-                        vm.percent+=Math.round(Math.random()*5.0);
+                        vm.percent+=Math.round(Math.random()*6);
                         document.getElementById("percent").style="width:"+vm.percent+"%";
                         if(vm.percent>=100){
                             vm.percent=100;
@@ -367,7 +367,7 @@ window.onload=function(){
                         else if(vm.percent>=60) column[1].click();
                         else if(vm.percent>=40) column[2].click();
                         else if(vm.percent>=5) column[3].click();
-                    },130);
+                    },100);
                 }
                 else{
                     document.getElementsByClassName("hideOnce")[0].style="display:block";
