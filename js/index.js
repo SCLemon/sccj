@@ -47,13 +47,6 @@ window.onload=function(){
             maxWidth:1300,
             maxHeight:550
         },
-        computed:{
-            // startTime(){
-            //     var start = new Date(2023,0,9).getTime();
-            //     var end =Date.now();
-            //     return Math.ceil((end-start)/1000/86400);
-            // },
-        },
         methods:{
             getIP(){
                 var user = navigator.userAgent;
@@ -176,9 +169,7 @@ window.onload=function(){
                 this.timer= setInterval(function(){
                     percent+=1.5;
                     contentBox.style="opacity:"+percent+"%";
-                    if(percent>=100){
-                        clearInterval(vm.timer);
-                    }
+                    if(percent>=100) clearInterval(vm.timer);
                 },12);
                 this.main_index=index;
             },
@@ -187,13 +178,8 @@ window.onload=function(){
                 var box =document.getElementById(id);
                 var length= arr.length;
                 var ps = window.getComputedStyle(box).getPropertyValue("left").split("px")[0];
-                if(method==1 && ps!=-(480*(length-1))){
-                   
-                   box.style.left=(ps-480)+"px";
-                }
-                if(method==2 && ps<0){
-                    box.style.left=(+ps+480)+"px";
-                }
+                if(method==1 && ps!=-(480*(length-1))) box.style.left=(ps-480)+"px";
+                if(method==2 && ps<0) box.style.left=(+ps+480)+"px";
             },
             // 取得留言
             queryMsg(){
@@ -267,14 +253,11 @@ window.onload=function(){
                 .then(function(data){
                     if(data==="block"){
                             document.getElementById("bg").innerHTML="<h1 style='color:red; font-size:60px; padding-top:20px; padding-left:20px;'>您因觸犯網路條約，已被系統自動屏蔽！！</h1>";
-                            var time = 5;
+                            var time = 2;
                             setInterval(() => {
                             time--;
-                            if(time==0){
-                                window.location.href="https://www.google.com";
-                            }
-                            }, 1000);
-                            
+                            if(time==0) window.location.href="https://www.google.com";
+                            }, 1000);    
                         }
                     }
                 )
@@ -358,9 +341,6 @@ window.onload=function(){
                             column[3].click();
                             slider.click();
                             vm.fadeOut();
-                            window.addEventListener("click",(e)=>{
-                                document.getElementById("audio").play();
-                            })
                             clearInterval(progress);
                         }
                         else if(vm.percent>=80) column[0].click();
@@ -476,7 +456,6 @@ window.onload=function(){
     vm.progress();
     window.addEventListener("keydown",(e)=>{
         var ps = document.getElementsByClassName("img-all")[0].style.left.split("px")[0];
-        document.getElementById("audio").play();
         if(ps=="") ps=0;
         if(e.keyCode==37) if((-ps/1400)>=1) vm.changeImg(Math.ceil((-ps/1400)))
         if(e.keyCode==39) if((-ps/1400)+2 <= vm.bannerArr.length) vm.changeImg(Math.ceil((-ps/1400)+2))
@@ -487,7 +466,6 @@ window.onload=function(){
     document.body.oncopy = function(){
         event.returnValue=false;
     }
-
     // 離開視窗
     var title =document.title;
     window.addEventListener("blur",()=>{
@@ -516,10 +494,3 @@ if (document.layers) {
 }
 document.onmousedown = click;
 document.oncontextmenu = new Function("return false;")
-
-document.onkeydown = document.onkeyup = document.onkeypress = function () {
-    if (window.event.keyCode == 123) {
-        window.event.returnValue = false;
-        return (false);
-    }
-}
