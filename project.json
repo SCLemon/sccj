@@ -1,56 +1,129 @@
-[{
+[
+{
+    "id":"16",
+    "date":"2024/03/02",
+    "event":"LemonEat 外賣平台 (實作中）",
+    "slider":"https://docs.google.com/presentation/d/e/2PACX-1vRQLcDc4QOs1jwPLTiBlkMnVPYCmaS2pRjaq5GHF2FNAOdb8E9I63QZXdqlMBUTQhOeUWKzH7LQtWkE/embed?start=false&loop=false&delayms=3000",
+    "link":"#",
+    "learn":"NodeJS<br>MongoDB<br>AJAX 技術<br>Vue CLI<br> Coding101 獲獎"
+},
+{
+    "id":"15",
+    "date":"2024/03/01",
+    "event":"臉書貼文自動按讚機器人",
+    "slider":"https://docs.google.com/presentation/d/e/2PACX-1vSRbz5cblH004rHSSBfkTitZYwNW-R0hMVXUwGjZx4pLViecSnCpvOuZgx5D7hoPX4OE5n_uTwVuROS/embed?start=false&loop=false&delayms=3000",
+    "link":"https://github.com/SCLemon/facebook-bot",
+    "learn":"Selenium API<br> OpenAI API<br> Fugle API"
+},
+{
+    "id":"14",
+    "date":"2023/12/08",
+    "event":"MovieSearcher",
+    "slider":"https://docs.google.com/presentation/d/e/2PACX-1vQwSohAQQYZQtihZ1jL5RNxhiIxcN_E0xRs-ClAqyc0v6briRGr6vZUKTe1zknhCGHFm8SrKeQCU6Ub/embed?start=false&loop=false&delayms=3000",
+    "link":"https://github.com/SCLemon/MovieSearcher",
+    "learn":"Youtube API<br>TMDB API <br> MySQL 學習"
+},
+{
+    "id":"13",
+    "date":"2023/11/19",
+    "event":"校園二手拍賣APP v2.0.0",
+    "slider":"https://docs.google.com/presentation/d/e/2PACX-1vQtJyURxc6_kUtu0iqFkf_kVM-VC-cnjrZQoN8PQV5cF56Qn-f0wtTz5NEJyNQ44VFkuIStVatMlBJm/embed?start=false&loop=false&delayms=3000",
+    "link":"https://github.com/SCLemon/nchu-secondHand",
+    "learn":"校內進階組金牌"
+},
+{
+    "id":"12",
+    "date":"2023/09/13",
+    "event":"校園二手拍賣APP v1.0.0",
+    "slider":"https://docs.google.com/presentation/d/e/2PACX-1vReYTe1b77Heh0sQRcvoVOL6piUEes7g48ENA2h4vpNQR8gbWrQVF6DTDZnfgzJEEz6HiJWMy-hQZ03/embed?start=false&loop=false&delayms=3000",
+    "link":"https://github.com/SCLemon/nchu-secondHand",
+    "learn":"Canvas 圖片壓縮<br>"
+},
+{
+    "id":"11",
+    "date":"2023/08/27",
+    "event":"Lottery 刮刮樂",
+    "slider":"https://docs.google.com/presentation/d/e/2PACX-1vRP-wbv8xvHl3A_K2ukPdDC8RVsJ7AtESi2AkXP0RCp4NDmvgglYSSR_8jCj8lN_DRyJfFT3w9ZzrTQ/embed?start=false&loop=false&delayms=3000",
+    "link":"https://github.com/SCLemon/lottery",
+    "learn":"Canvas 應用學習<br>JavaScript ES6"
+},
+{
+    "id":"10",
+    "date":"2023/06/16",
+    "event":"Flappy 飛翔的小鳥",
+    "slider":"https://docs.google.com/presentation/d/e/2PACX-1vSB6Sy5NeHYSEYnEaPK_y0EWNPraiRQoEzqkBhRl3NDPY-cAZrErUf4DnPdx3hy-JDIfA-4uslgnLOd/embed?start=false&loop=false&delayms=3000",
+    "link":"https://github.com/SCLemon/NTHU_I2P_Project",
+    "learn":"C Allegro5 框架"
+},
+{
+    "id":"9",
+    "date":"2023/05/29",
+    "event":"寵物餵食記錄器",
+    "slider":"https://docs.google.com/presentation/d/e/2PACX-1vTktdyWEKErx8zQrcM5NwiLWJZn7gykRbexZtgae7BWJ6hfTnKZkPbNkD2lF58VL1fYRU3cSfjgDfk8/embed?start=false&loop=false&delayms=3000",
+    "link":"https://github.com/SCLemon/bubu",
+    "learn":"Line Notify API<br> Line Bot API<br> WebHook 應用"
+},
+{
+    "id":"8",
+    "date":"2023/03/23",
+    "event":"深空寂靜個人網頁",
+    "slider":"https://docs.google.com/presentation/d/e/2PACX-1vRDz09A1vGB2PerzKHsGKg6G0_yW4rubgmzIw7nYtGYU5bB4LhrYapq1-79zTQ4HaPkJxV385LQfoix/embed?start=false&loop=false&delayms=3000",
+    "link":"https://github.com/SCLemon/sccj",
+    "learn":"Botui API<br> VantaJS<br>VueJS 入門學習"
+},
+{
     "id":"7",
-    "date":"2023.08.26",
-    "event":"[Canvas] 每日刮刮樂",
-    "content":"利用 AppScript 搭配 Canvas 技術進行刮刮樂設計，其中功能包含：隨機抽取刮刮卡、刷新/重抽刮刮卡、手動/自動刮取、歷史紀錄、兌換獎勵、兌換後通知、抽獎機率加成、前後端雙層安全驗證（詳細請看github）等等。",
-    "img":["project/github.webp"],
-    "link":"https://sclemon.github.io/lottery/"
+    "date":"2023/02/19",
+    "event":"雲端圖片連結轉換器",
+    "slider":"https://docs.google.com/presentation/d/e/2PACX-1vQUsSR7_gEJijEAGg8yzivJmZpcHYX46xPCgIeQFps7BtpeA2kICT1NqO-VMHodWhQJQv28WQucMstG/embed?start=false&loop=false&delayms=3000",
+    "link":"https://github.com/sc1314520/IMG_CLOUD",
+    "learn":"GoogleDrive API<br>Gmail API"
 },
 {
     "id":"6",
-    "date":"2023.05.29",
-    "event":"[Line API] Bubu飲食管理",
-    "content":"利用 AppScript 將 Google Sheet 作為飲食配置設定，當特定時間到達時，自動將當前對應資料寄送 Mail 至各位主人的信箱中作為餵食提醒（可無需開啟 sheet 即可得知本次餵食內容），此外，為了更有效的傳遞提醒，本次新加入了 Line Notify 以及 Line Messaging 的串接，除了信箱發送事前提醒外，在 Line 中也會傳遞狀態訊息（亦可輸入特定的指令查詢狀態）。為了避免忘記餵食，系統將會在每半小時自動判斷時距，距離上次餵食時間超過指定時距後，將會發送 Line 提醒。最後，為了使用者方便（且多為 mobile 使用者），故額外架設了一個以 Mobile 為主設計的網頁作為紀錄使用，當按下完成確認並且輸入特定的 PassWord 後，sheet中將會記錄餵食時間，可以有效掌握 Bubu 的飼養狀況。",
-    "img":["project/github.webp"],
-    "link":"https://sclemon.github.io/bubu/"
+    "date":"2022/12/30",
+    "event":"GSAT-112 爬蟲初體驗",
+    "slider":"https://docs.google.com/presentation/d/e/2PACX-1vSubRCfccXuvrpoYe-EP8-CmvVnOJLJaMXMWI19Bn26lULFanZdu1Ce8mrkSl2QPFr-HaYm309aBTDU/embed?start=false&loop=false&delayms=3000",
+    "link":"https://github.com/sc1314520/GSAT-112",
+    "learn":"CheerIO 技術學習<br>GoogleSheet API"
 },
 {
     "id":"5",
-    "date":"2023.05.11",
-    "event":"UBike 即時資料自動查詢",
-    "content":"利用 CheerIO 以及 AppScript 進行即時資料汲取以及紀錄，在特定時間自動寄件給使用者，提早獲取資料，以避免無法租借之困擾。",
-    "img":["project/github.webp"],
-    "link":"https://github.com/SCLemon/Ubike"
+    "date":"2022/11/15",
+    "event":"媽媽便當訂餐系統",
+    "slider":"https://docs.google.com/presentation/d/e/2PACX-1vQvi-hNr0FLlPv_VfYuEvnYc0dbHJM7oc2VNWV5oSnk3Y_ER5MZmzxiK_Hy0EMYFtdC6FVQDyRkp7MH/embed?start=false&loop=false&delayms=3000",
+    "link":"https://github.com/sc1314520/lunchOrder",
+    "learn":"AppScript 學習"
 },
 {
     "id":"4",
-    "date":"2022.02.19",
-    "event":"[雲端串接] 圖片上傳暨連結轉換",
-    "content":"利用Google Drive 作為雲端儲存空間，提供各位前端工程師上傳圖片並取得一專屬資源 src 連結，可直接使用於 imgUrl='src'，將圖片呈現在網頁上。",
-    "img":["project/github.webp"],
-    "link":"https://github.com/sc1314520/IMG_CLOUD"
+    "date":"2022/09/15",
+    "event":"Yun的蘭嶼旅遊日記",
+    "slider":"https://docs.google.com/presentation/d/e/2PACX-1vRgac7Oz2bQeYIlwV9lpAC9A13CmHvq3KAlbWZTJbX4nOM9KpxIQUb2Cd04p6vuIZPmK4eTG3sSoKqf/embed?start=false&loop=false&delayms=3000",
+    "link":"https://github.com/sc1314520/Yun_album",
+    "learn":"CSS 基礎排版學習"
 },
 {
     "id":"3",
-    "date":"2022.12.30",
-    "event":"[JS爬蟲] 112學測甄試篩選器",
-    "content":"查詢 112 學年度各校系甄試一覽表",
-    "img":["project/github.webp"],
-    "link":"https://github.com/sc1314520/GSAT-112"
+    "date":"2022/07/15",
+    "event":"極致簡約個人網頁",
+    "slider":"https://docs.google.com/presentation/d/e/2PACX-1vSTnDUCWsMxdL4hVo4s4L0W-aifMUHDwnB_EKfnE7ltGgVc4tT3U1pG_VA3EeopYJuo0LTbKtGlNqsF/embed?start=false&loop=false&delayms=3000",
+    "link":"https://github.com/sc1314520/sclemon",
+    "learn":"JavaScript 入門"
 },
 {
     "id":"2",
-    "date":"2022.11.10",
-    "event":"[GAS串接] 簡易型便當訂餐系統",
-    "content":"這是一個台師大媽媽便當訂餐系統，包含了增刪功能與Google sheet 進行串接，協助店家自動化紀錄訂單。",
-    "img":["project/github.webp"],
-    "link":"https://github.com/sc1314520/lunch.github.io"
+    "date":"2022/07/17",
+    "event":"RWD 響應式設計初體驗",
+    "slider":"https://docs.google.com/presentation/d/e/2PACX-1vStq3hmn9rXKLIg_GQtP_ktBVoK_ngj04iZcepni_uUQl-vyY1vOa-t6df1BCGxknRdf4B05m2ECBvE/embed?start=false&loop=false&delayms=3000",
+    "link":"https://github.com/sc1314520/RWDrestaurant",
+    "learn":"RWD 響應式學習"
 },
 {
     "id":"1",
-    "date":"2022.07.15",
-    "event":"第一版本個人網站",
-    "content":"由初學當下所建立的靜態個人網站（初版），使用純JS編寫的小型網頁。",
-    "img":["project/github.webp"],
-    "link":"https://sc1314520.github.io/personal.github.io/"
+    "date":"2022/07/09",
+    "event":"HTML 網頁設計初體驗",
+    "slider":"https://docs.google.com/presentation/d/e/2PACX-1vTMaDLnVwYscrSJ0byOidS_Ll7UTSK_2UQkQUo6FKxBnVEXhJ1jCytLobmIWyUOPeV6y_I3w4_0feOP/embed?start=false&loop=false&delayms=3000",
+    "link":"https://github.com/sc1314520/FirstProject",
+    "learn":"Swiper CSS <br> LightBox CSS<br>HTML/CSS 學習"
 }]

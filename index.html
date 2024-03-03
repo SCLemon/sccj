@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/label.css">
     <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/project.css">
     <!-- flower loading -->
     <link rel="stylesheet" href="css/loader.css">
     <!-- main.js -->
@@ -357,21 +358,17 @@
                                 <span>時間：<span v-text="obj.date"></span></span>
                             </div>
                         </div>
-                        <div class="content" v-if="main_index==2" v-for="obj in project">
-                            <div class="img">
-                                <div :id="obj.id" class="img-car">
-                                    <img v-for="sr in obj.img" :src="sr" :alt="sr">
-                                </div>
-                                <div class="arrow">
-                                    <img src="material/down.webp" alt="" class="right" @click="contentImg(obj.id,obj.img,1)">
-                                    <img src="material/down.webp" alt="" class="left" @click="contentImg(obj.id,obj.img,2)">
-                                </div>
-                            </div>
-                            <div class="ctext">
-                                <a target="_blank" :href="obj.link" v-text="obj.event"></a>
-                                <p v-text="obj.content"></p>
-                                <span>時間：<span v-text="obj.date"></span></span>
-                            </div>
+                        <div class="project" v-if="main_index==2" v-for="obj in project">
+                           <div class="timelineBox">
+                            <div class="line"></div>
+                            <div class="time"><span>{{obj.date}}</span><a class="link" :href="obj.link" target="_blank">{{obj.event}}</a></div>
+                            <div class="line"></div>
+                            <div class="timeDot"></div>
+                            <div class="dotText" v-html="obj.learn"></div>
+                           </div>
+                           <div class="projectSlider">
+                                <iframe class="pSlider" :src="obj.slider" frameborder="0"  allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+                           </div>
                         </div>
                         <div class="content" v-if="main_index==3" v-for="obj in record">
                             <div class="img">
@@ -470,7 +467,6 @@
                 </label>
                 <!-- <div class="future" id="mod" @click="sendMail()">Download</div> -->
             </div>
-            <audio loop hidden src="audio/background.mp3" id="audio"></audio>
         </div>
     </div>
     <!-- botui -->

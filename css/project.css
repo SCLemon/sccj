@@ -1,0 +1,58 @@
+.project{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.timelineBox{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+.timeDot{
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    background-color: white;
+}
+.dotText{
+    position: absolute;
+    bottom: -2.5px;
+    left: 165px;
+    color: white;
+    line-height: 1.4;
+}
+.projectSlider{
+    width: 68%;
+    height: 100%;
+    padding: 20px;
+}
+.pSlider{
+    width: 100%;
+    height: 100%;
+}
+.line{
+    height: 41%;
+    border: 1px solid white;
+}
+.time{
+    height: 18%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+    text-align: center;
+    line-height: 1.5;
+}
+.link{
+    color: white;
+    text-decoration: none;
+}
+.link:hover{
+    text-decoration: underline;
+}

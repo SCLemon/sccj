@@ -1,6 +1,9 @@
 input:focus{
     outline: none;
 }
+::-webkit-scrollbar{
+    display: none;
+}
 body{
     width: 1440px;
     overflow-x: hidden;

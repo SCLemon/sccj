@@ -12,7 +12,7 @@ window.onload=function(){
             inputMsg:'',
             outputMsg:[],
             ip:'',
-            main_index:1,
+            main_index:4,
             sendEnabled:true,
             timer:0,
             last:0,
